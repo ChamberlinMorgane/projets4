@@ -8,7 +8,10 @@
   },
   "dependencies": {
     "@heroicons/vue": "^1.0.6",
+    "chartjs": "^0.3.24",
+    "i": "^0.3.7",
     "vue": "^3.2.33",
+    "vue-chartjs": "^5.2.0",
     "vue-router": "^4.0.14"
   },
   "devDependencies": {
