@@ -1,110 +1,140 @@
 <script setup>
-import { reactive, ref, onMounted } from 'vue';
-import { Doughnut } from 'vue-chartjs'
-import { Chart as ChartJs, Title, Tooltip, Legend, ArcElement, CategoryScale, Chart } from 'chart.js'
+//Import des éléments de vue 
+import { reactive } from 'vue';
 
-Chart.register(Title, Tooltip, Legend, ArcElement, CategoryScale)
+// Import d'un type de graphique barChart
+import { Bar } from 'vue-chartjs'
 
+// Import des objets du graphique de la bibliothèque ChartJs
+import { Chart as ChartJS, Title, Tooltip, Legend, BarElement, CategoryScale, LinearScale } from 'chart.js'
+
+// Eléments utilisés par le graphique
+ChartJS.register(Title, Tooltip, Legend, BarElement, CategoryScale, LinearScale)
+
+
+// Propriétés du graphique utilisés dans le template
+// On définit pour chacune son type de données et sa valeur par défaut
+// On peut utiliser une grande variété de types, voire des objets
 const propChart = defineProps({
-    chartId: { type: String, default: 'doughnut-chart' },
-    datasetIdKey: { type: String, default: 'label' },
-    width: { type: Number, default: 500 },
-    height: { type: Number, default: 500 },
-    cssClasses: { type: String, default: '' },
-    styles: { type: String, default: () => { } },
-    plugins: { type: String, default: () => { } },
+    chartId: { type: String, default: 'bar-chart' }, // Id du graphique
+    datasetIdKey: { type: String, default: 'label' }, // Id du dataSet
+    width: { type: Number, default: 350 }, // Largeur du graphe
+    height: { type: Number, default: 700 }, // Hauteur du graphe
+    cssClasses: { type: String, default: '' }, // Classes css utilisées
+    styles: { type: Object, default: () => { } }, // Styles utilisés
+    plugins: { type: Object, default: () => { } }  // plugins utilisés
 })
 
-const chartData = reactive({
-    labels: ["val1", "val2", "val3", "val4"],
-    datasets: [
-        {
-            data: [],
-            backgroundColor: [],
-            borderColor: [],
-            borderWidth: 1
-        }
-    ]
+// Données injectées dans le graphique
+let chartData = reactive({
+    // Etiquette de l'axe
+    labels: ['2005', '2006', '2007', '2008', '2009', '2010', '2011', '2012', '2013', '2014', '2015', '2016', '2017'],
+    // Valeurs des données du graphique
+    datasets: [{
+        // Etiquette du je de données à projeter
+        label: 'données 01',
+        // Valeurs des données
+        data: [5282, 5241, 5399, 5078, 5060, 4588, 4905, 4549, 4351, 4719, 4714, 4674, 4828],
+        // Couleur des barres en regard des valeurs
+        backgroundColor: [
+            'rgba(255, 99, 132, 0.2)',
+            'rgba(255, 159, 64, 0.2)',
+            'rgba(255, 205, 86, 0.2)',
+            'rgba(75, 192, 192, 0.2)',
+            'rgba(54, 162, 235, 0.2)',
+            'rgba(54, 162, 235, 0.2)',
+            'rgba(54, 162, 235, 0.2)',
+            'rgba(54, 162, 235, 0.2)',
+            'rgba(54, 162, 235, 0.2)',
+            'rgba(54, 162, 235, 0.2)',
+            'rgba(54, 162, 235, 0.2)',
+            'rgba(54, 162, 235, 0.2)',
+            'rgba(54, 162, 235, 0.2)',
+        ],
+        // Couleur de la bordure de chaque barre
+        borderColor: [
+            'rgba(255, 99, 132)',
+            'rgba(255, 159, 64)',
+            'rgba(255, 205, 86)',
+            'rgba(75, 192, 192)',
+            'rgba(54, 162, 235)',
+        ],
+        borderWidth: 1
+    }]
 })
 
+// Options du graphique
+// Les principales utilisées, ils en existe d'autres
+// voir documentation
+let chartOptions = reactive({
+    // Aspect responsive du graphique
+    responsive: true,
+    // Maintien du ratio
+    maintainAspectRation: false,
 
-const chartOptions = reactive({
+    // Type de projection utilisée
+    // x : verticale
+    // y : horizontale
+    indexAxis: 'x',
+
+    // Echelles du graphique
+    scales: {
+        // axe des ordonnées
+        y: {
+            // Valeur max des y
+            suggestedMax: 10000,
+            ticks: {
+                // Police
+                font: {
+                    size: 16
+                }
+            }
+        },
+        // axe des abscisses
+        x: {
+            ticks: {
+                // Police
+                font: {
+                    size: 16
+                }
+            }
+        },
+    },
+
+    // Les plugins
     plugins: {
+        // Légende des données
+        legend: {
+            // label des données
+            labels: {
+                color: 'green',
+                font: {
+                    size: 16
+                }
+            }
+        },
         title: {
-            //affiche titre
+            // Affichage du titre
             display: true,
-            //libellé du graphique 
-            text: "Présence de lumière pendant l'accident",
-            //couleur du text
-            color: "black",
+            // Libellé du graphique
+            text: "Chartjs - BarChart",
+            // Couleur du texte
+            color: 'blue',
+            // Police du texte
             font: {
                 size: 16
             }
         }
-    },
-
-    responsive: true,
-    maintainAspectRatio: false
-
+    }
 
 })
 
-let liste = ref();
-let listeLuminosite = new Set()
 
-onMounted(async () => {
-    fetch('https://accidentvelo.jmfino.fr/json.php')
-        .then(response => response.json())
-        .then(response => {
-            liste = response
-            // console.log(liste);
-            liste.forEach(accident => {
-                listeLuminosite.add(accident[9])
-            })
-            listeLuminosite.delete("luminosite")
-            // console.log(listeInter)
-            chartData.labels = Array.from(listeLuminosite)
-            console.log(chartData.labels)
-            // chartData.labels.sort()
-            let cpt = []
-            chartData.labels.forEach((inter) => {
-                let nb = 0
-                liste.forEach((acc) => {
-                    if (inter == acc[9])
-                        nb++
-                })
-                cpt.push(nb)
-            })
-            chartData.datasets[0].data = cpt
-            console.log(cpt);
-
-            let bgColor = [];
-            let bdColor = [];
-            cpt.forEach(function (val) {
-                let c1 = couleur(0, 255)
-                let c2 = couleur(0, 255)
-                let c3 = couleur(0, 255)
-                let tr = 0.5
-                let color = 'rgba(' + [c1, c2, c3, tr].join(',') + ")"
-                bgColor.push(color)
-                let border = 'rgba(' + [c1, c2, c3, tr].join(',') + ")"
-                bdColor.push(color)
-            })
-            chartData.datasets[0].backgroundColor = bgColor;
-            chartData.datasets[0].borderColor = bdColor;
-
-        })
-        .catch(error => console.log('erreur Ajax'))
-
-
-})
-
-const couleur = (min, max) => {
-    return Math.floor(Math.random() * (max - min));
-}
 </script>
-        
+
 <template>
-    <Doughnut :chart-options="chartOptions" :chart-data="chartData" :chart-id="chartId" :dataset-id-key="datasetIdKey"
+    <Bar :chart-options="chartOptions" :chart-data="chartData" :chart-id="chartId" :dataset-id-key="datasetIdKey"
         :plugins="plugins" :css-classes="cssClasses" :styles="styles" :width="width" :height="height" />
 </template>
+
+<style scoped></style>
