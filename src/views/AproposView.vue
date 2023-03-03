@@ -1,3 +1,9 @@
+<script setup>
+import { ref, onMounted } from 'vue';
+
+import Chart from '@/components/Chart.vue'
+</script>
+
 <template>
     <main class="bg-orange-100">
 
@@ -22,6 +28,7 @@
 
         <h2>MES COMPÉTENCES</h2>
 
+        <Chart />
         <p>Wordpress</p>
         <p>VueJs</p>
         <p>Suite Adobe</p>
@@ -31,3 +38,4 @@
         <p>Mettre en place chartjs pour faire des donut en js et les mettres dans mes différentes catégorie. </p>
     </main>
 </template>
+
