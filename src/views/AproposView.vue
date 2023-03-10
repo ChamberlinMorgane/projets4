@@ -9,7 +9,7 @@ import Chart from '@/components/Chart.vue'
 
         <h2>PRÉSENTATION</h2>
 
-        <img src="#" alt="Photo de moi">
+        <img class="w-20 xl:w-64 " src="photo-moi.png" alt="Photo de moi">
         <p>Je suis Actuellement en deuxième année d’un Bachelor Métiers du Multimédia et de l’Internet, je suis spécialisée
             en parcours Communication et UX Design.
 
@@ -27,15 +27,29 @@ import Chart from '@/components/Chart.vue'
 
 
         <h2>MES COMPÉTENCES</h2>
+        <div class="xl:flex space-x-14 ">
+            <div class="grid grid-cols-1">
+                <img class="xl:w-32" src="Figma.svg" alt="Figma">
+                <p class="mx-auto">Figma</p>
+            </div>
+            <div>
+                <img class="xl:w-32" src="Adobe.svg" alt="Suite Adobe">
+                <p class="mx-auto">Suite Adobe</p>
+            </div>
+            <div>
+                <img class="xl:w-32" src="Vuejs.svg" alt="Vuejs">
+                <p class="mx-auto">VueJS</p>
+            </div>
+            <div>
+                <img class="xl:w-32" src="Wordpress.svg" alt="Wordpress">
+                <p class="mx-auto">Wordpress</p>
+            </div>
+        </div>
 
-        <Chart />
-        <p>Wordpress</p>
-        <p>VueJs</p>
-        <p>Suite Adobe</p>
-        <p>Goggle Wordpace</p>
-        <p>HTML/CSS</p>
-        <p>Réseaux Sociaux</p>
-        <p>Mettre en place chartjs pour faire des donut en js et les mettres dans mes différentes catégorie. </p>
+
+
+
+
     </main>
 </template>
 
