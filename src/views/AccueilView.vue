@@ -60,15 +60,12 @@
 
 
     <h2>CONTACT CONTACT CONTACT</h2>
+
     <section id="contact">
-      <ContactForm />
+      <div class="w-full h-96 bg-lime-800 bg-opacity-40 p-8 ">
+        <ContactForm />
+      </div>
     </section>
-
-    <div class=" h-96 w-full z-0 bg-lime-800 opacity-40"></div>
-
-
-
-
   </main>
 </template>
 
