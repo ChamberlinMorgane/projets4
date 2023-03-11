@@ -16,49 +16,53 @@
 
     </div>
 
-    <h2 class="xl:mx-48 xl:text-6xl text-2xl justify-center">MES PROJETS MES PROJETS </h2>
-    <div class=" -mt-20 mb-16 h-28 w-full z-0 bg-lime-800 opacity-40"></div>
-    <div class="xl:grid xl:grid-cols-2 justify-items-center ">
+    <div class="container mb-32">
+      <h2 class="animation xl:text-6xl text-2xl">MES PROJETS MES PROJETS MES PROJETS MES PROJETS
+      </h2>
+      <div class=" -mt-20 h-28 w-full z-0 bg-lime-800 opacity-40"></div>
+    </div>
+
+    <div class="xl:grid xl:grid-cols-2 justify-items-center mt-48 ">
       <div class="grid grid-cols-1">
-        <div class=" -mb-20 opacity-10 hover:opacity-50 h-96 w-full z-0 bg-orange-50 hover:bg-black ">
+        <div class="hover:opacity-50 w-full z-0">
+          <img class="hover:bg-black" src="cartedevisite.png" alt="projet carte de visite">
+          <div class=" h-1 w-1/2 m-auto mt-3 bg-black"></div>
+          <p class="xl:text-2xl font-inria text-center">CARTE DE VISITE</p>
         </div>
-        <img class="-mt-72" src="cartedevisite.png" alt="projet carte de visite">
-        <div class=" h-1 w-1/2 m-auto mt-3 bg-black"></div>
-        <p class="xl:text-2xl font-inria m-auto">CARTE DE VISITE</p>
       </div>
 
 
       <div class="grid grid-cols-1">
-        <div class=" -mb-20 opacity-10 hover:opacity-50 h-96 w-full z-0 bg-orange-50 hover:bg-black ">
+        <div class="hover:opacity-50 w-full z-0">
+          <img class="hover:bg-black" src="citadellebesancon.png" alt="citadelle de besancon">
+          <div class=" h-1 w-1/2 m-auto mt-3 bg-black"></div>
+          <p class="xl:text-2xl font-inria text-center">CITADELLE DE BESANCON</p>
         </div>
-        <img class="-mt-72" src="citadellebesancon.png" alt="citadelle de besancon">
-        <div class=" h-1 w-1/2 m-auto mt-3 bg-black"></div>
-        <p class="xl:text-2xl font-inria m-auto">CITADELLE DE BESANCON</p>
       </div>
 
       <div class="grid grid-cols-1">
-        <div class=" -mb-20 opacity-10 hover:opacity-50 h-96 w-full z-0 bg-orange-50 hover:bg-black ">
+        <div class="hover:opacity-50 w-full z-0">
+          <img class="hover:bg-black" src="puma-happysocks.png" alt="puma affiche">
+          <div class=" h-1 w-1/2 m-auto mt-3 bg-black"></div>
+          <p class="xl:text-2xl font-inria text-center">AFFICHES</p>
         </div>
-        <img class="-mt-72" src="puma-happysocks.png" alt="puma affiche">
-        <div class=" h-1 w-1/2 m-auto mt-3 bg-black"></div>
-        <p class="xl:text-2xl font-inria m-auto">AFFICHES</p>
       </div>
 
       <div class="grid grid-cols-1">
-        <div class=" -mb-20 opacity-10 hover:opacity-50 h-96 w-full z-0 bg-orange-50 hover:bg-black ">
+        <div class="hover:opacity-50 w-full z-0">
+          <img class="hover:bg-black" src="emorphoz.png" alt="projet emorphoz">
+          <div class=" h-1 w-1/2 m-auto mt-3 bg-black"></div>
+          <p class="xl:text-2xl font-inria text-center">GÉNÉRATEUR DE NFT</p>
         </div>
-        <img class="-mt-72" src="emorphoz.png" alt="projet emorphoz">
-        <div class=" h-1 w-1/2 m-auto mt-3 bg-black"></div>
-        <p class="xl:text-2xl font-inria m-auto">GÉNÉRATEUR DE NFT</p>
       </div>
     </div>
 
 
 
     <h2>CONTACT CONTACT CONTACT</h2>
-    <div>
+    <section id="contact">
       <ContactForm />
-    </div>
+    </section>
 
     <div class=" h-96 w-full z-0 bg-lime-800 opacity-40"></div>
 
@@ -79,3 +83,29 @@ export default {
 
 
 </script>
+
+<style>
+.container {
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+}
+
+.animation {
+  overflow: hidden;
+  white-space: nowrap;
+  animation: translate 15s linear infinite
+}
+
+@keyframes translate {
+
+  0% {
+    transform: translateX(-100%)
+  }
+
+  100% {
+    transform: translateX(100%)
+  }
+
+}
+</style>
