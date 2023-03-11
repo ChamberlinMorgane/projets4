@@ -1,4 +1,4 @@
-<template>
+<template class>
     <main>
         <img class="z-10 mt-48" src="rectangle.jpg" alt="rectangle">
         <img class="z-20 -mt-96 ml-28 w-48" src="ciel-projet.jpg" alt="ciel projet">
