@@ -15,7 +15,8 @@ module.exports = {
       },
       "fontFamily": {
         "inria": "inria",
-        "montserrat": "montserrat"
+        "montserrat": "montserrat",
+        "caveat": "caveat"
         // Ici vos familles de polices exportées de Figma
         // Ne pas oublier de les charger dans '/index.html' !
       },
