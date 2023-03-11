@@ -7,7 +7,7 @@
 
 
             <RouterLink class="pt-6 text-xl font-inria xl:text-2xl" to="/Apropos">A propos</RouterLink>
-            <RouterLink class="pt-6 text-xl font-inria xl:text-2xl" to="/">Contact</RouterLink>
+            <a class="pt-6 text-xl font-inria xl:text-2xl" href="#contact">Contact</a>
             <RouterLink class="pt-6 text-xl font-inria xl:text-2xl" to="/Mesprojets">Mes projets</RouterLink>
 
 
