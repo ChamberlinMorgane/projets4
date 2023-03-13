@@ -1,9 +1,9 @@
 <template>
     <main>
         <form action="https://formspree.io/f/xvonqaay" method="POST">
-            <div class="grid grid-cols-1 xl:w-1/4 ml-48 -mb-80 z-30">
-                <input class=" text-black bg-transparent border-b-2 border-black" placeholder="Nom" type="text" name="Nom"
-                    id="nom">
+            <div class="grid grid-cols-1 xl:w-1/4 ml-48 z-30">
+                <input class=" text-black font-montserrat bg-transparent border-b-2 border-black" placeholder="Nom"
+                    type="text" name="Nom" id="nom">
                 <input class="text-black bg-transparent border-b-2 border-black" placeholder="Email" type="text"
                     name="Email" id="email">
                 <textarea class="text-black bg-transparent border-b-2 border-black" placeholder="Message" name="Message"
