@@ -1,13 +1,24 @@
-<script setup>
-import { ref, onMounted } from 'vue';
-
-import Chart from '@/components/Chart.vue'
-</script>
-
 <template>
     <main class="bg-orange-100">
 
-        <h2 class="font-caveat xl:text-6xl xl:ml-20  mb-16 mt-20 text-xl justify-center">PRÉSENTATION</h2>
+        <div class=" flex w-full h-96 snap-x overflow-x-auto overflow-y-hidden pb-14 mt-10">
+            <div class="w-full shrink-0 rounded-lg shadow-xl ">
+                <img src="communication-1.jpg" alt="image concert" />
+            </div>
+            <div class="w-full shrink-0 rounded-lg shadow-xl">
+                <img src="communication-2.jpg" alt="image concert" />
+            </div>
+            <div class="w-full shrink-0 rounded-lg shadow-xl">
+                <img src="communication-3.jpg" alt="image concert" />
+            </div>
+            <div class="w-full shrink-0 rounded-lg shadow-xl">
+                <img src="communication-4.jpg" alt="image concert" />
+            </div>
+        </div>
+
+        <h2 class="-mt-52 z-40 font-inria xl:text-8xl text-center ">A propos</h2>
+
+        <h2 class="font-caveat xl:text-6xl xl:ml-20 mt-48 text-xl justify-center">PRÉSENTATION</h2>
 
         <div class="grid grid-cols-1 xl:flex xl:space-x-20 xl:m-20">
             <img class="w-48 xl:w-72" src="photo-moi.png" alt="Photo de moi">
@@ -40,8 +51,8 @@ import Chart from '@/components/Chart.vue'
 
 
         <h2 class="font-caveat xl:text-6xl xl:ml-20  mb-16">MES COMPÉTENCES</h2>
-        <div class="xl:flex items-center ">
-            <div class="grid grid-cols-1 ">
+        <div class="xl:flex  mx-auto">
+            <div class="grid grid-cols-1  ">
                 <img class="xl:w-32" src="Figma.svg" alt="Figma">
                 <p class="mx-auto">Figma</p>
             </div>
@@ -65,4 +76,9 @@ import Chart from '@/components/Chart.vue'
 
     </main>
 </template>
+
+<script>
+
+
+</script>
 
