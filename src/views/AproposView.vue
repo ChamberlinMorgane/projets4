@@ -16,12 +16,14 @@
             </div>
         </div>
 
-        <h2 class="-mt-52 z-40 font-inria xl:text-8xl text-center ">A propos</h2>
+        <h2 class="xl:-mt-52 z-40 font-inria xl:text-8xl text-center text-4xl -mt-60 text-white ">A propos</h2>
 
-        <h2 class="font-caveat xl:text-6xl xl:ml-20 mt-48 text-xl justify-center">PRÉSENTATION</h2>
-
+        <div class="grid grid-cols-2 ">
+            <h2 class="font-caveat xl:text-6xl xl:ml-20 mt-48 text-3xl">PRÉSENTATION</h2>
+            <div class="h-1 w-full mt-52 bg-black"></div>
+        </div>
         <div class="grid grid-cols-1 xl:flex xl:space-x-20 xl:m-20">
-            <img class="w-48 xl:w-72" src="photo-moi.png" alt="Photo de moi">
+            <img class="w-48 xl:w-72 m-auto mt-10" src="photo-moi.png" alt="Photo de moi">
             <div class="text-center flex flex-col p-20">
                 <p>Je suis Actuellement en deuxième année d’un Bachelor Métiers du Multimédia et de
                     l’Internet, je suis
@@ -48,28 +50,66 @@
             </div>
         </div>
 
-
-
-        <h2 class="font-caveat xl:text-6xl xl:ml-20  mb-16">MES COMPÉTENCES</h2>
-        <div class="xl:flex  mx-auto">
-            <div class="grid grid-cols-1  ">
-                <img class="xl:w-32" src="Figma.svg" alt="Figma">
-                <p class="mx-auto">Figma</p>
+        <div class="xl:ml-20 xl:max-w-sm xl:space-y-8 pt-3 pb-6 ml-16">
+            <div class="flex space-x-3">
+                <img src="enveloppe.svg" alt="mail">
+                <p class="mt-3">cmorgane2003@gmail.com</p>
             </div>
-            <div>
-                <img class="xl:w-32" src="Adobe.svg" alt="Suite Adobe">
-                <p class="mx-auto">Suite Adobe</p>
+            <div class="flex space-x-3">
+                <img src="iphone.svg" alt="telephone">
+                <p class="mt-3">0769935323</p>
             </div>
-            <div>
-                <img class="xl:w-32" src="Vuejs.svg" alt="Vuejs">
-                <p class="mx-auto">VueJS</p>
-            </div>
-            <div>
-                <img class="xl:w-32" src="Wordpress.svg" alt="Wordpress">
-                <p class="mx-auto">Wordpress</p>
+            <div class="flex space-x-3">
+                <img src="batiment.svg" alt="adresse">
+                <p class="mt-3">4 Place tharradin, 25200 Montbéliard</p>
             </div>
         </div>
 
+        <div class="grid grid-cols-2 mb-20">
+            <h2 class="font-caveat xl:text-6xl xl:ml-20 mt-10 text-3xl">COMPÉTENCES</h2>
+            <div class="h-1 w-full mt-20 bg-black"></div>
+        </div>
+        <div class="xl:flex justify-center gap-x-20 gap-y-10">
+            <div class="grid grid-cols-1  ">
+                <img class="xl:w-32 m-auto w-24" src="Figma.svg" alt="Figma">
+                <p class="text-center mt-3 xl:text-xl font-montserrat">Figma</p>
+            </div>
+            <div>
+                <img class="xl:w-32 m-auto w-24" src="Adobe.svg" alt="Suite Adobe">
+                <p class="text-center mt-3 xl:text-xl font-montserrat">Suite Adobe</p>
+            </div>
+            <div>
+                <img class="xl:w-32 m-auto w-24" src="Vuejs.svg" alt="Vuejs">
+                <p class="text-center mt-3 xl:text-xl font-montserrat">VueJS</p>
+            </div>
+            <div>
+                <img class="xl:w-32 m-auto w-24" src="Wordpress.svg" alt="Wordpress">
+                <p class="text-center mt-3 xl:text-xl font-montserrat">Wordpress</p>
+            </div>
+            <div>
+                <img class="xl:w-32 m-auto w-24" src="reseaux.svg" alt="Wordpress">
+                <p class="text-center mt-3 xl:text-xl font-montserrat">Réseaux Sociaux</p>
+            </div>
+            <div>
+                <img class="xl:w-32 m-auto w-24" src="cv.svg" alt="Wordpress">
+                <div class="grid grid-cols-2">
+                    <p class="text-center mt-3 xl:text-xl font-montserrat">CV</p>
+                    <a href="CV.pdf" download rel="noopener noreferrer" target="_blank"><img class="w-5 mt-5"
+                            src="telecharger.png" alt="icone téléchargement"></a>
+                </div>
+            </div>
+        </div>
+        <div class="container mb-32 mt-11">
+            <h2 class="animation xl:text-6xl text-4xl">CONTACT CONTACT CONTACT CONTACT CONTACT</h2>
+            <div class=" -mt-20 h-28 w-full z-0 bg-pink-300 bg-opacity-20"></div>
+        </div>
+
+
+        <section id="contact">
+            <div class=" xl:p-8 xl:my-32 mt-32">
+                <ContactForm />
+            </div>
+        </section>
 
 
 
@@ -78,7 +118,40 @@
 </template>
 
 <script>
+import ContactForm from '@/components/ContactForm.vue'
+
+export default {
+    components: {
+        ContactForm
+    }
+}
 
 
 </script>
+
+<style>
+.container {
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+}
+
+.animation {
+    overflow: hidden;
+    white-space: nowrap;
+    animation: translate 20s linear infinite
+}
+
+@keyframes translate {
+
+    0% {
+        transform: translateX(-100%)
+    }
+
+    100% {
+        transform: translateX(100%)
+    }
+
+}
+</style>
 
