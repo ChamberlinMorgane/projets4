@@ -3,16 +3,16 @@
 
         <div class=" flex w-full h-96 snap-x overflow-x-auto overflow-y-hidden pb-14 mt-10">
             <div class="w-full shrink-0 rounded-lg shadow-xl ">
-                <img src="communication-1.jpg" alt="image concert" />
+                <img src="../assets/communication-1.jpg" alt="image concert" />
             </div>
             <div class="w-full shrink-0 rounded-lg shadow-xl">
-                <img src="communication-2.jpg" alt="image concert" />
+                <img src="../assets/communication-2.jpg" alt="image concert" />
             </div>
             <div class="w-full shrink-0 rounded-lg shadow-xl">
-                <img src="communication-3.jpg" alt="image concert" />
+                <img src="../assets/communication-3.jpg" alt="image concert" />
             </div>
             <div class="w-full shrink-0 rounded-lg shadow-xl">
-                <img src="communication-4.jpg" alt="image concert" />
+                <img src="../assets/communication-4.jpg" alt="image concert" />
             </div>
         </div>
 
@@ -23,7 +23,7 @@
             <div class="h-1 w-full mt-52 bg-black"></div>
         </div>
         <div class="grid grid-cols-1 xl:flex xl:space-x-20 xl:m-20">
-            <img class="w-48 xl:w-72 m-auto mt-10" src="photo-moi.png" alt="Photo de moi">
+            <img class="w-48 xl:w-72 m-auto mt-10" src="../assets/photo-moi.png" alt="Photo de moi">
             <div class="text-center flex flex-col p-20">
                 <p>Je suis Actuellement en deuxième année d’un Bachelor Métiers du Multimédia et de
                     l’Internet, je suis
@@ -52,15 +52,15 @@
 
         <div class="xl:ml-20 xl:max-w-sm xl:space-y-8 pt-3 pb-6 ml-16">
             <div class="flex space-x-3">
-                <img src="enveloppe.svg" alt="mail">
+                <img src="../assets/enveloppe.svg" alt="mail">
                 <p class="mt-3">cmorgane2003@gmail.com</p>
             </div>
             <div class="flex space-x-3">
-                <img src="iphone.svg" alt="telephone">
+                <img src="../assets/iphone.svg" alt="telephone">
                 <p class="mt-3">0769935323</p>
             </div>
             <div class="flex space-x-3">
-                <img src="batiment.svg" alt="adresse">
+                <img src="../assets/batiment.svg" alt="adresse">
                 <p class="mt-3">4 Place tharradin, 25200 Montbéliard</p>
             </div>
         </div>
@@ -71,31 +71,31 @@
         </div>
         <div class="xl:flex justify-center gap-x-20 gap-y-10">
             <div class="grid grid-cols-1  ">
-                <img class="xl:w-32 m-auto w-24" src="Figma.svg" alt="Figma">
+                <img class="xl:w-32 m-auto w-24" src="../assets/Figma.svg" alt="Figma">
                 <p class="text-center mt-3 xl:text-xl font-montserrat">Figma</p>
             </div>
             <div>
-                <img class="xl:w-32 m-auto w-24" src="Adobe.svg" alt="Suite Adobe">
+                <img class="xl:w-32 m-auto w-24" src="../assets/Adobe.svg" alt="Suite Adobe">
                 <p class="text-center mt-3 xl:text-xl font-montserrat">Suite Adobe</p>
             </div>
             <div>
-                <img class="xl:w-32 m-auto w-24" src="Vuejs.svg" alt="Vuejs">
+                <img class="xl:w-32 m-auto w-24" src="../assets/Vuejs.svg" alt="Vuejs">
                 <p class="text-center mt-3 xl:text-xl font-montserrat">VueJS</p>
             </div>
             <div>
-                <img class="xl:w-32 m-auto w-24" src="Wordpress.svg" alt="Wordpress">
+                <img class="xl:w-32 m-auto w-24" src="../assets/Wordpress.svg" alt="Wordpress">
                 <p class="text-center mt-3 xl:text-xl font-montserrat">Wordpress</p>
             </div>
             <div>
-                <img class="xl:w-32 m-auto w-24" src="reseaux.svg" alt="Wordpress">
+                <img class="xl:w-32 m-auto w-24" src="../assets/reseaux.svg" alt="Wordpress">
                 <p class="text-center mt-3 xl:text-xl font-montserrat">Réseaux Sociaux</p>
             </div>
             <div>
-                <img class="xl:w-32 m-auto w-24" src="cv.svg" alt="Wordpress">
+                <img class="xl:w-32 m-auto w-24" src="../assets/cv.svg" alt="Wordpress">
                 <div class="grid grid-cols-2">
                     <p class="text-center mt-3 xl:text-xl font-montserrat">CV</p>
                     <a href="CV.pdf" download rel="noopener noreferrer" target="_blank"><img class="w-5 mt-5"
-                            src="telecharger.png" alt="icone téléchargement"></a>
+                            src="../assets/telecharger.png" alt="icone téléchargement"></a>
                 </div>
             </div>
         </div>

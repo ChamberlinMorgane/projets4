@@ -6,11 +6,11 @@
 
     <div class="xl:grid xl:grid-cols-2 xl:items-center pb-28 ">
 
-      <img class="xl:w-2/4 w-80 pt-28 m-auto xl:pt-5 " src="cathedrale.png" alt="image home page">
+      <img class="xl:w-2/4 w-80 pt-28 m-auto xl:pt-5 " src="../assets/cathedrale.png" alt="image home page">
       <div class="-mt-64 text-white xl:text-black xl:mt-24 xl:-ml-64">
         <h1 class="xl:text-8xl text-4xl font-inria text-center hover:font-bold">COMMUNICATION</h1>
         <h4 class="text-xl font-inria xl:text-2xl  text-center hover:font-bold ">Morgane CHAMBERLIN</h4>
-        <img class="xl:w-36 xl:mt-12 w-20 m-auto xl:hover:w-48" src="logo.svg" alt="logo">
+        <img class="xl:w-36 xl:mt-12 w-20 m-auto xl:hover:w-48" src="../assets/logo.svg" alt="logo">
 
       </div>
 
@@ -25,7 +25,8 @@
     <div class="xl:grid xl:grid-cols-2 justify-items-center mt-48 ">
       <div class="grid grid-cols-1">
         <div class="hover:opacity-50 w-full z-0">
-          <img class="hover:bg-black" src="cartedevisite.png" alt="projet carte de visite">
+          <a href="Cartevisite"><img class="hover:bg-black" src="../assets/cartedevisite.png"
+              alt="projet carte de visite"></a>
           <div class=" h-1 w-1/2 m-auto mt-3 bg-black"></div>
           <p class="xl:text-2xl font-inria text-center">CARTE DE VISITE</p>
         </div>
@@ -34,7 +35,8 @@
 
       <div class="grid grid-cols-1">
         <div class="hover:opacity-50 w-full z-0">
-          <img class="hover:bg-black" src="citadellebesancon.png" alt="citadelle de besancon">
+          <a href="Citadelle"><img class="hover:bg-black" src="../assets/citadellebesancon.png"
+              alt="citadelle de besancon"></a>
           <div class=" h-1 w-1/2 m-auto mt-3 bg-black"></div>
           <p class="xl:text-2xl font-inria text-center">CITADELLE DE BESANCON</p>
         </div>
@@ -42,7 +44,7 @@
 
       <div class="grid grid-cols-1">
         <div class="hover:opacity-50 w-full z-0">
-          <img class="hover:bg-black" src="puma-happysocks.png" alt="puma affiche">
+          <a href="Affiche"><img class="hover:bg-black" src="../assets/puma-happysocks.png" alt="puma affiche"></a>
           <div class=" h-1 w-1/2 m-auto mt-3 bg-black"></div>
           <p class="xl:text-2xl font-inria text-center">AFFICHES</p>
         </div>
@@ -50,7 +52,7 @@
 
       <div class="grid grid-cols-1">
         <div class="hover:opacity-50 w-full z-0">
-          <img class="hover:bg-black" src="emorphoz.png" alt="projet emorphoz">
+          <a href="Emorphoz"><img class="hover:bg-black" src="../assets/emorphoz.png" alt="projet emorphoz"></a>
           <div class=" h-1 w-1/2 m-auto mt-3 bg-black"></div>
           <p class="xl:text-2xl font-inria text-center">GÉNÉRATEUR DE NFT</p>
         </div>

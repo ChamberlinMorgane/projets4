@@ -22,11 +22,11 @@ module.exports = {
       },
 
       backgroundImage: {
-        'fond': "url('fond.jpg')",
-        'chateau': "url('chateau.jpg')",
-        'ciel': "url('ciel.jpg')",
-        'soleil': "url('soleil.jpg')",
-        'corbeau': "url('corbeau.jpg')",
+        'fond': "url('./public/fond-filtre.jpg')",
+        'chateau': "url('./public/chateau-filtre.jpg')",
+        'ciel': "url('./public/ciel-filtre.jpg')",
+        'soleil': "url('./public/assets/soleil.jpg')",
+        'corbeau': "url('./public/assets/corbeau-filtre.jpg')",
       }
     },
 

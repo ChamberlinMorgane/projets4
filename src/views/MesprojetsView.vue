@@ -3,16 +3,16 @@
 
         <div class=" flex w-full h-96 snap-x overflow-x-auto overflow-y-hidden pb-14 mt-10">
             <div class="w-full shrink-0 rounded-lg shadow-xl ">
-                <img src="communication-1.jpg" alt="image concert" />
+                <img src="../assets/communication-1.jpg" alt="image concert" />
             </div>
             <div class="w-full shrink-0 rounded-lg shadow-xl">
-                <img src="communication-2.jpg" alt="image concert" />
+                <img src="../assets/communication-2.jpg" alt="image concert" />
             </div>
             <div class="w-full shrink-0 rounded-lg shadow-xl">
-                <img src="communication-3.jpg" alt="image concert" />
+                <img src="../assets/communication-3.jpg" alt="image concert" />
             </div>
             <div class="w-full shrink-0 rounded-lg shadow-xl">
-                <img src="communication-4.jpg" alt="image concert" />
+                <img src="../assets/communication-4.jpg" alt="image concert" />
             </div>
         </div>
 
@@ -23,7 +23,8 @@
 
             <div class="xl:max-w-xl max-w-xs bg-lime-800 bg-opacity-50 border border-gray-200 rounded-lg shadow ">
                 <a href="Citadelle">
-                    <img class="rounded-t-lg h-full w-full" src="citadelle-besancon-.jpg" alt="citadelle besancon" />
+                    <img class="rounded-t-lg h-full w-full" src="../assets/citadelle-besancon-.jpg"
+                        alt="citadelle besancon" />
                 </a>
                 <div class="p-5">
                     <a href="Citadelle">
@@ -49,7 +50,7 @@
 
             <div class="xl:max-w-xl max-w-xs bg-lime-800 bg-opacity-50 border border-gray-200 rounded-lg shadow ">
                 <a href="Cartevisite">
-                    <img class="rounded-t-lg w-full h-1/3" src="cartedevisite.png" alt="carte de visite" />
+                    <img class="rounded-t-lg w-full h-1/3" src="../assets/cartedevisite.png" alt="carte de visite" />
                 </a>
                 <div class="p-5">
                     <a href="Cartevisite">
@@ -71,7 +72,7 @@
 
             <div class="xl:max-w-xl max-w-xs bg-lime-800 bg-opacity-50 border border-gray-200 rounded-lg shadow ">
                 <a href="Affiche">
-                    <img class="rounded-t-lg h-2/3 w-full" src="puma-happysocks.png" alt="Affiche puma" />
+                    <img class="rounded-t-lg h-2/3 w-full" src="../assets/puma-happysocks.png" alt="Affiche puma" />
                 </a>
                 <div class="p-5">
                     <a href="Affiche">
@@ -93,7 +94,7 @@
 
             <div class="xl:max-w-xl max-w-xs bg-lime-800 bg-opacity-50 border border-gray-200 rounded-lg shadow ">
                 <a href="Emorphoz">
-                    <img class="rounded-t-lg h-2/3 w-full" src="emorphoz.png" alt="Projet S3" />
+                    <img class="rounded-t-lg h-2/3 w-full" src="../assets/emorphoz.png" alt="Projet S3" />
                 </a>
                 <div class="p-5">
                     <a href="Emorphoz">

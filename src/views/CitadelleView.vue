@@ -5,16 +5,16 @@
 
         <div class=" flex w-full h-96 snap-x overflow-x-auto overflow-y-hidden pb-48 mt-10 ">
             <div class="w-full shrink-0 rounded-lg shadow-xl ">
-                <img src="mockup-citadelle.jpg" alt="image concert" />
+                <img src="../assets/mockup-citadelle.jpg" alt="image concert" />
             </div>
             <div class="w-full shrink-0 rounded-lg shadow-xl">
-                <img src="mockup-citadelle-2.jpg" alt="image concert" />
+                <img src="../assets/mockup-citadelle-2.jpg" alt="image concert" />
             </div>
             <div class="w-full shrink-0 rounded-lg shadow-xl">
-                <img src="mockup-citadelle-3.jpg" alt="image concert" />
+                <img src="../assets/mockup-citadelle-3.jpg" alt="image concert" />
             </div>
             <div class="w-full shrink-0 rounded-lg shadow-xl">
-                <img src="mockup-citadelle-4.jpg" alt="image concert" />
+                <img src="../assets/mockup-citadelle-4.jpg" alt="image concert" />
             </div>
         </div>
 
@@ -91,8 +91,8 @@
                 <h3 class="font-caveat xl:text-7xl z-10 text-4xl">AVEC QUELLES TECHNOLOGIES ? </h3>
             </div>
             <div class="grid grid-cols-2">
-                <img class="w-60" src="figma-logo.jpg" alt="">
-                <img class="w-60 rounded-3xl" src="vscode-logo.jpg" alt="">
+                <img class="w-60" src="../assets/figma-logo.jpg" alt="">
+                <img class="w-60 rounded-3xl" src="../assets/vscode-logo.jpg" alt="">
             </div>
 
         </div>
@@ -115,8 +115,8 @@
         </div>
         <p class="font-montserrat text-center mt-20 mb-20 xl:text-xl">Voici différentes parties de mon animation. </p>
         <div class="xl:grid xl:grid-cols-2 w-screen overflow-hidden">
-            <img class="" src="citadelle.jpg" alt="">
-            <img class="" src="citadelle-besancon.jpg" alt="">
+            <img class="" src="../assets/citadelle.jpg" alt="">
+            <img class="" src="../assets/citadelle-besancon.jpg" alt="">
         </div>
 
         <div class="container mb-32 mt-11">

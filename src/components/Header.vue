@@ -1,7 +1,7 @@
 <template>
     <template class="bg-orange-100">
         <a href="/">
-            <img class="w-24 ml-10 mt-5 " src="logo.svg" alt="logo">
+            <img class="w-24 ml-10 mt-5 " src="../assets/logo.svg" alt="logo">
         </a>
         <div class=" flex ml-auto gap-10 mr-10 bg-orange-100 text-black">
 
