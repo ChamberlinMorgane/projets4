@@ -1,6 +1,6 @@
 <template>
     <header class="sticky top-0 z-50 flex h-16 w-screen items-center bg-orange-100">
-        <router-link class="" to="/"><img src="../assets/logo.svg" alt="logo"></router-link>
+        <router-link class="w-10 ml-3 mt-2" to="/"><img src="../assets/logo.svg" alt="logo"></router-link>
         <MenuAlt1Icon class="absolute right-4 h-8 w-8" @click="MenuOpen = !MenuOpen" v-if="!MenuOpen" />
         <XIcon class="absolute right-4 z-50 h-8 w-8" @click="MenuOpen = !MenuOpen" v-if="MenuOpen" />
         <a href="/">
