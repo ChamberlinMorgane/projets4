@@ -16,7 +16,7 @@
                     <RouterLink to="/Apropos" @click="MenuOpen = !MenuOpen">A propos</RouterLink>
                 </li>
                 <li>
-                    <a class="pt-6 text-xl font-inria xl:text-2xl" href="#contact">Contact</a>
+                    <a class="pt-6 text-xl font-inria xl:text-3xl" href="#contact">Contact</a>
                 </li>
                 <li>
                     <RouterLink to="/Mesprojets" @click="MenuOpen = !MenuOpen">Mes Projets</RouterLink>

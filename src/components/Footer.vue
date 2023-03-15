@@ -3,7 +3,7 @@
         <p class="justify-left font-inria">@Toutdroitréservé</p>
         <div class="grid grid-cols-1">
             <p class="m-auto font-inria">PORTFOLIO2023</p>
-            <router-link class="m-auto font-inria" to="/Mentionlegales">
+            <router-link class="m-auto font-inria pb-5" to="/Mentionlegales">
                 <p>Mentions Légales</p>
             </router-link>
         </div>
