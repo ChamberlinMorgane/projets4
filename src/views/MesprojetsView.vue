@@ -22,94 +22,93 @@
         <div class="grid grid-cols-1 xl:grid-cols-2 gap-20 place-items-center mt-48">
 
             <div class="xl:max-w-xl max-w-xs bg-lime-800 bg-opacity-50 border border-gray-200 rounded-lg shadow ">
-                <a href="Citadelle">
-                    <img class="rounded-t-lg h-full w-full" src="../assets/citadelle-besancon-.jpg"
-                        alt="citadelle besancon" />
-                </a>
+
+                <router-link class="" to="Citadelle"><img class="rounded-t-lg h-full w-full"
+                        src="../assets/citadelle-besancon-.jpg" alt="citadelle besancon" /></router-link>
+
                 <div class="p-5">
-                    <a href="Citadelle">
+                    <router-link class="" to="Citadelle">
                         <h5 class="mb-2 text-2xl font-bold tracking-tight text-black text-center font-inria">Animation
                             Citadelle
                             de
                             Besançon</h5>
-                    </a>
+                    </router-link>
+
                     <p class="mb-3 font-normal font-montserrat text-gray-900 text-center">Cette animation a été faite dans
                         le
                         cadre de ma
                         formation en MMi, il s’agit d’un travail en design. </p>
 
 
-                    <a href="Citadelle"
-                        class="inline-flex px-3 py-2 text-sm font-medium font-montserrat text-center text-black bg-b-transparent border-2 border-black rounded-lg hover:bg-black hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300">
-                        EN SAVOIR PLUS
 
-                    </a>
+                    <router-link class="m-auto" to="Citadelle"><button
+                            class="inline-flex px-3 py-2 text-sm font-medium font-montserrat text-center text-black bg-b-transparent border-2 border-black rounded-lg hover:bg-black hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300">
+                            EN SAVOIR PLUS</button></router-link>
 
                 </div>
             </div>
 
             <div class="xl:max-w-xl max-w-xs bg-lime-800 bg-opacity-50 border border-gray-200 rounded-lg shadow ">
-                <a href="Cartevisite">
-                    <img class="rounded-t-lg w-full h-1/3" src="../assets/cartedevisite.png" alt="carte de visite" />
-                </a>
+
+                <router-link class="" to="Cartevisite"><img class="rounded-t-lg h-1/3 w-full"
+                        src="../assets/cartedevisite.png" alt="carte de visite"></router-link>
+
                 <div class="p-5">
-                    <a href="Cartevisite">
+                    <router-link class="" to="Cartevisite">
                         <h5 class="mb-2 text-2xl font-bold tracking-tight text-black text-center font-inria">Création carte
                             de visite</h5>
-                    </a>
+                    </router-link>
                     <p class="mb-3 font-normal font-montserrat text-gray-900 text-center">Carte de visite pour 3 magasins
                         fait dans le cadre de ma formation en alternance à la Société de la Licorne. </p>
 
 
-                    <a href="Cartevisite"
-                        class="inline-flex  px-3 py-2 text-sm font-medium font-montserrat text-center text-black bg-b-transparent border-2 border-black rounded-lg hover:bg-black hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300">
-                        EN SAVOIR PLUS
-
-                    </a>
+                    <router-link class="m-auto" to="Cartevisite"><button
+                            class="inline-flex px-3 py-2 text-sm font-medium font-montserrat text-center text-black bg-b-transparent border-2 border-black rounded-lg hover:bg-black hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300">
+                            EN SAVOIR PLUS</button></router-link>
 
                 </div>
             </div>
 
             <div class="xl:max-w-xl max-w-xs bg-lime-800 bg-opacity-50 border border-gray-200 rounded-lg shadow ">
-                <a href="Affiche">
-                    <img class="rounded-t-lg h-2/3 w-full" src="../assets/puma-happysocks.png" alt="Affiche puma" />
-                </a>
+
+                <router-link class="" to="Affiche"><img class="rounded-t-lg h-2/3 w-full"
+                        src="../assets/puma-happysocks.png" alt="Affiche puma" /></router-link>
+
                 <div class="p-5">
-                    <a href="Affiche">
+                    <router-link class="" to="Affiche">
                         <h5 class="mb-2 text-2xl font-bold tracking-tight text-black text-center font-inria">Affiche Puma,
                             HappySocks, La Chaise Longue</h5>
-                    </a>
+                    </router-link>
+
+
                     <p class="mb-3 font-normal font-montserrat text-gray-900 text-center">Affiche fait dans le cadre de ma
                         formation en alternance à la Société de la Licorne.</p>
 
 
-                    <a href="Affiche"
-                        class="inline-flex  px-3 py-2 text-sm font-medium font-montserrat text-center text-black bg-b-transparent border-2 border-black rounded-lg hover:bg-black hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300">
-                        EN SAVOIR PLUS
-
-                    </a>
+                    <router-link class="m-auto" to="Affiche"><button
+                            class="inline-flex px-3 py-2 text-sm font-medium font-montserrat text-center text-black bg-b-transparent border-2 border-black rounded-lg hover:bg-black hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300">
+                            EN SAVOIR PLUS</button></router-link>
 
                 </div>
             </div>
 
             <div class="xl:max-w-xl max-w-xs bg-lime-800 bg-opacity-50 border border-gray-200 rounded-lg shadow ">
-                <a href="Emorphoz">
-                    <img class="rounded-t-lg h-2/3 w-full" src="../assets/emorphoz.png" alt="Projet S3" />
-                </a>
+
+                <router-link class="" to="Emorphoz"><img class="rounded-t-lg h-2/3 w-full" src="../assets/emorphoz.png"
+                        alt="Projet S3" /></router-link>
+
                 <div class="p-5">
-                    <a href="Emorphoz">
+                    <router-link class="" to="Emorphoz">
                         <h5 class="mb-2 text-2xl font-bold tracking-tight text-black text-center font-inria">Projet Emorphoz
                         </h5>
-                    </a>
+                    </router-link>
                     <p class="mb-3 font-normal font-montserrat text-gray-900 text-center">Projet fait dans le cadre de ma
                         foramtion en MMI ou j'ai eu le rôle de Chargée de communication. </p>
 
 
-                    <a href="Emorphoz"
-                        class="inline-flex  px-3 py-2 text-sm font-medium font-montserrat text-center text-black bg-b-transparent border-2 border-black rounded-lg hover:bg-black hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300">
-                        EN SAVOIR PLUS
-
-                    </a>
+                    <router-link class="m-auto" to="Emorphoz"><button
+                            class="inline-flex px-3 py-2 text-sm font-medium font-montserrat text-center text-black bg-b-transparent border-2 border-black rounded-lg hover:bg-black hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300">
+                            EN SAVOIR PLUS</button></router-link>
 
                 </div>
             </div>
