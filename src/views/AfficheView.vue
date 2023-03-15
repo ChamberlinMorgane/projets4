@@ -21,7 +21,7 @@
         <h2 class="xl:-mt-52 z-40 font-inria xl:text-8xl text-center text-4xl -mt-60 text-white ">AFFICHE PUBLICITAIRE</h2>
 
 
-        <div class="bg-[url('../assets/ciel-filtre.jpg')] w-full mt-60">
+        <div class="bg-[url('rectangle-.jpg')] w-full mt-60">
 
             <div class="flex pt-20 xl:pl-32 pl-14 space-x-10 relative z-10">
                 <h3
@@ -38,7 +38,7 @@
             </p>
         </div>
 
-        <div class="bg-[url('../assets/fond-filtre.jpg')] w-full">
+        <div class="bg-[url('fond-filtre.jpg')] w-full">
 
             <div class="flex pt-20 xl:pl-32 pl-14 space-x-10 relative z-10">
                 <h3
@@ -65,7 +65,7 @@
         </div>
 
 
-        <div class="bg-[url('../assets/corbeau-filtre.jpg')] w-full">
+        <div class="bg-[url('rectangle-.jpg')] w-full">
 
             <div class="flex pt-20 xl:pl-32 pl-14 space-x-10 relative z-10">
                 <h3
@@ -97,7 +97,7 @@
         </div>
 
 
-        <div class="bg-[url('../assets/chateau-filtre.jpg')] w-full">
+        <div class="bg-[url('rectangle-.jpg')] w-full">
 
             <div class="flex pt-20 xl:pl-32 pl-14 space-x-10 relative z-10">
                 <h3

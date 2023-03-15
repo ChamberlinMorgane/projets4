@@ -26,7 +26,8 @@ module.exports = {
         'chateau': "url('./public/chateau-filtre.jpg')",
         'ciel': "url('./public/ciel-filtre.jpg')",
         'soleil': "url('./public/assets/soleil.jpg')",
-        'corbeau': "url('./public/assets/corbeau-filtre.jpg')",
+        'corbeau': "url('./public/corbeau-filtre.jpg')",
+        'rectangle': "url('./public/rectangle-.jpg')",
       }
     },
 
