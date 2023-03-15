@@ -60,8 +60,8 @@
                 mis les informations les plus importantes. Et pour finir, nous avons fait un devis dans une imprimerie pour
                 avoir des cartes de visite de bonne qualité.</p>
         </div>
-        <div class="bg-[url('rectangle-.jpg')] w-full">
-
+        <div class=" w-full">
+            bg-[url('rectangle-.jpg')]
             <div class="flex pt-20 xl:pl-32 pl-14 space-x-10 relative z-10">
                 <h3
                     class="z-10 xl:h-20 xl:w-20 h-14 w-14 bg-transparent border-4 border-solid border-black text-center xl:text-7xl text-4xl rounded-xl hover:bg-black hover:text-white hover:border-white">
