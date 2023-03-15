@@ -5,16 +5,16 @@
 
         <div class=" flex w-full h-96 snap-x overflow-x-auto overflow-y-hidden pb-48 mt-10 ">
             <div class="w-full shrink-0 rounded-lg shadow-xl ">
-                <img src="../assets/mockup-citadelle.jpg" alt="image concert" />
+                <img src="../assets/affiche1.jpg" alt="image concert" />
             </div>
             <div class="w-full shrink-0 rounded-lg shadow-xl">
-                <img src="../assets/mockup-citadelle-2.jpg" alt="image concert" />
+                <img src="../assets/affiche2.jpg" alt="image concert" />
             </div>
             <div class="w-full shrink-0 rounded-lg shadow-xl">
-                <img src="../assets/mockup-citadelle-3.jpg" alt="image concert" />
+                <img src="../assets/affiche3.jpg" alt="image concert" />
             </div>
             <div class="w-full shrink-0 rounded-lg shadow-xl">
-                <img src="../assets/mockup-citadelle-4.jpg" alt="image concert" />
+                <img src="../assets/affiche4.jpg" alt="image concert" />
             </div>
         </div>
 
@@ -89,9 +89,15 @@
                 </h3>
                 <h3 class="font-caveat xl:text-7xl z-10 text-4xl">AVEC QUELLES TECHNOLOGIES ? </h3>
             </div>
-            <div class="grid grid-cols-2">
-                <img class="w-60" src="../assets/figma-logo.jpg" alt="">
-                <img class="w-60 rounded-3xl" src="../assets/vscode-logo.jpg" alt="">
+            <div class="grid grid-cols-2 mt-20 pb-20">
+                <div class="grid grid-cols-1">
+                    <img class="w-32 m-auto" src="../assets/logofigma.png" alt="logo figma">
+                    <p class="font-montserrat text-center mt-5"> Figma pour la vectorisation</p>
+                </div>
+                <div>
+                    <img class="w-52 m-auto" src="../assets/illustrator.jpg" alt="logo illustrator">
+                    <p class="font-montserrat text-center mt-5">Visual Studio Code pour l'animation</p>
+                </div>
             </div>
 
         </div>
@@ -113,18 +119,32 @@
                 design et des contenus sur des courtes périodes. J’ai appris à faire des contenus en fonction de l période
                 de l’année sur laquelle nous devions communiquer. </p>
         </div>
-
-        <div class=" flex w-1/6 m-auto h-full snap-x overflow-x-auto overflow-y-hidden pb-48 mt-10 ">
-            <div class="w-full shrink-0 rounded-lg shadow-xl ">
-                <img class="h-96 w-72" src="../assets/galopins2.jpg" alt="image concert" />
+        <p class="font-montserrat text-center mt-20 mb-20 xl:text-xl">Voici mes 3 affiches que j'ai pu réaliser lors des
+            fêtes de fin
+            d'année ou la rentrée des classes </p>
+        <div class="grid xl:grid-cols-3 grid-cols-1">
+            <div>
+                <img src="../assets/galopins3.jpg" alt="carte de visite look">
+                <p class="font-montserrat text-center mt-10">Cette affiche est une idée de cadeaux lors des fêtes de fin
+                    d'année
+                    avec
+                    une touche d'humour pour donner plus
+                    envie aux gens qui la verront d'ensuite acheter les produits</p>
             </div>
-            <div class="w-full shrink-0 rounded-lg shadow-xl">
-                <img class="h-96 w-72" src="../assets/galopins3.jpg" alt="image concert" />
+            <div>
+                <img src="../assets/galopins2.jpg" alt="carte de visite galopins">
+                <p class="font-montserrat text-center mt-10">Cette affiche est une idée de cadeaux lors des fêtes de fin
+                    d'année
+                    en montrant que les chaussettes sont toutes chaude
+                    envie aux gens qui la verront d'ensuite acheter les produits</p>
             </div>
-            <div class="w-full shrink-0 rounded-lg shadow-xl">
-                <img class="h-96 w-72" src="../assets/affiche-puma.jpg" alt="image concert" />
+            <div>
+                <img src="../assets/affiche-puma.jpg" alt="carte de visite victor et louise">
+                <p class="font-montserrat text-center mt-10">Cette affiche à été fait pour la rentrée des classes, c'est
+                    pour
+                    montrer une promotion qui est attractive quand on veut acheter des nouvelles chaussures pour son enfant.
+                </p>
             </div>
-
         </div>
 
         <div class="container mb-32 mt-11">
