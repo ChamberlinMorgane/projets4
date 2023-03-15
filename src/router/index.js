@@ -17,7 +17,7 @@ const router = createRouter({
     { path: '/Cartevisite', name: 'Cartevisite', component: CartevisiteView },
     { path: '/Citadelle', name: 'Citadelle', component: CitadelleView },
     { path: '/Emorphoz', name: 'Emorphoz', component: EmorphozView },
-    // ici les autre routes
+    // ici les autres routes
   ]
 })
 

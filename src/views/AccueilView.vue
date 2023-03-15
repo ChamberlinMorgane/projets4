@@ -25,8 +25,9 @@
     <div class="xl:grid xl:grid-cols-2 justify-items-center mt-48 ">
       <div class="grid grid-cols-1">
         <div class="hover:opacity-50 w-full z-0">
-          <a href="Cartevisite"><img class="hover:bg-black" src="../assets/cartedevisite.png"
-              alt="projet carte de visite"></a>
+          <router-link class="" to="/Cartevisite"><img class="hover:bg-black" src="../assets/cartedevisite.png"
+              alt="projet carte de visite"> </router-link>
+
           <div class=" h-1 w-1/2 m-auto mt-3 bg-black"></div>
           <p class="xl:text-2xl font-inria text-center">CARTE DE VISITE</p>
         </div>
