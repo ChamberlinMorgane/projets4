@@ -36,8 +36,8 @@
 
       <div class="grid grid-cols-1">
         <div class="hover:opacity-50 w-full z-0">
-          <a href="Citadelle"><img class="hover:bg-black" src="../assets/citadellebesancon.png"
-              alt="citadelle de besancon"></a>
+          <router-link class="" to="/Citadelle"><img class="hover:bg-black" src="../assets/citadellebesancon.png"
+              alt="citadelle de besancon"> </router-link>
           <div class=" h-1 w-1/2 m-auto mt-3 bg-black"></div>
           <p class="xl:text-2xl font-inria text-center">CITADELLE DE BESANCON</p>
         </div>
@@ -45,7 +45,8 @@
 
       <div class="grid grid-cols-1">
         <div class="hover:opacity-50 w-full z-0">
-          <a href="Affiche"><img class="hover:bg-black" src="../assets/puma-happysocks.png" alt="puma affiche"></a>
+          <router-link class="" to="/Affiche"><img class="hover:bg-black" src="../assets/puma-happysocks.png"
+              alt="puma affiche"> </router-link>
           <div class=" h-1 w-1/2 m-auto mt-3 bg-black"></div>
           <p class="xl:text-2xl font-inria text-center">AFFICHES</p>
         </div>
@@ -53,7 +54,8 @@
 
       <div class="grid grid-cols-1">
         <div class="hover:opacity-50 w-full z-0">
-          <a href="Emorphoz"><img class="hover:bg-black" src="../assets/emorphoz.png" alt="projet emorphoz"></a>
+          <router-link class="" to="/Emorphoz"><img class="hover:bg-black" src="../assets/emorphoz.png"
+              alt="projet emorphoz"> </router-link>
           <div class=" h-1 w-1/2 m-auto mt-3 bg-black"></div>
           <p class="xl:text-2xl font-inria text-center">GÉNÉRATEUR DE NFT</p>
         </div>
