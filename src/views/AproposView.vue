@@ -1,7 +1,7 @@
 <template>
     <main class="bg-orange-100">
 
-        <div class=" flex w-full h-96 snap-x overflow-x-auto overflow-y-hidden pb-14 mt-10">
+        <div class=" flex w-full h-96 z-0 snap-x overflow-x-auto overflow-y-hidden pb-14 mt-10">
             <div class="w-full shrink-0 rounded-lg shadow-xl ">
                 <img src="../assets/communication-1.jpg" alt="image concert" />
             </div>
