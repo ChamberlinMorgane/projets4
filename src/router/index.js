@@ -6,6 +6,7 @@ import CartevisiteView from '../views/CartevisiteView.vue'
 import CitadelleView from '../views/CitadelleView.vue'
 import EmorphozView from '../views/EmorphozView.vue'
 import MesprojetsView from '../views/MesprojetsView.vue'
+import MentionlegalesView from '../views/MentionlegalesView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -17,6 +18,7 @@ const router = createRouter({
     { path: '/Cartevisite', name: 'Cartevisite', component: CartevisiteView },
     { path: '/Citadelle', name: 'Citadelle', component: CitadelleView },
     { path: '/Emorphoz', name: 'Emorphoz', component: EmorphozView },
+    { path: '/Mentionlegales', name: 'Mentionlegales', component: MentionlegalesView },
     // ici les autres routes
   ]
 })
