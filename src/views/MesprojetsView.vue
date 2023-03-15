@@ -15,11 +15,15 @@
                 <img src="communication-4.jpg" alt="image concert" />
             </div>
         </div>
-        <div class="grid grid-cols-1 xl:grid-cols-2 gap-20 place-items-center">
+
+        <h2 class="xl:-mt-52 z-40 font-inria xl:text-8xl text-center text-4xl -mt-60 text-white ">MES PROJETS</h2>
+
+
+        <div class="grid grid-cols-1 xl:grid-cols-2 gap-20 place-items-center mt-48">
 
             <div class="xl:max-w-xl max-w-xs bg-lime-800 bg-opacity-50 border border-gray-200 rounded-lg shadow ">
                 <a href="Citadelle">
-                    <img class="rounded-t-lg h-2/3 w-full" src="citadelle-besancon.jpg" alt="citadelle besancon" />
+                    <img class="rounded-t-lg h-full w-full" src="citadelle-besancon-.jpg" alt="citadelle besancon" />
                 </a>
                 <div class="p-5">
                     <a href="Citadelle">
@@ -35,7 +39,7 @@
 
 
                     <a href="Citadelle"
-                        class="inline-flex  px-3 py-2 text-sm font-medium font-montserrat text-center text-black bg-b-transparent border-2 border-black rounded-lg hover:bg-black hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300">
+                        class="inline-flex px-3 py-2 text-sm font-medium font-montserrat text-center text-black bg-b-transparent border-2 border-black rounded-lg hover:bg-black hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300">
                         EN SAVOIR PLUS
 
                     </a>
@@ -45,7 +49,7 @@
 
             <div class="xl:max-w-xl max-w-xs bg-lime-800 bg-opacity-50 border border-gray-200 rounded-lg shadow ">
                 <a href="Cartevisite">
-                    <img class="rounded-t-lg w-full h-2/3" src="cartedevisite.png" alt="carte de visite" />
+                    <img class="rounded-t-lg w-full h-1/3" src="cartedevisite.png" alt="carte de visite" />
                 </a>
                 <div class="p-5">
                     <a href="Cartevisite">
@@ -110,5 +114,56 @@
             </div>
         </div>
 
+        <div class="container mb-32 mt-11">
+            <h2 class="animation xl:text-6xl text-4xl">CONTACT CONTACT CONTACT CONTACT CONTACT</h2>
+            <div class=" -mt-20 h-28 w-full z-0 bg-pink-300 bg-opacity-20"></div>
+        </div>
+
+
+        <section id="contact">
+            <div class=" xl:p-8 xl:my-32 mt-32">
+                <ContactForm />
+            </div>
+        </section>
+
+
     </main>
 </template>
+
+<script>
+import ContactForm from '@/components/ContactForm.vue'
+
+export default {
+    components: {
+        ContactForm
+    }
+}
+
+
+</script>
+
+<style>
+.container {
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+}
+
+.animation {
+    overflow: hidden;
+    white-space: nowrap;
+    animation: translate 20s linear infinite
+}
+
+@keyframes translate {
+
+    0% {
+        transform: translateX(-100%)
+    }
+
+    100% {
+        transform: translateX(100%)
+    }
+
+}
+</style>

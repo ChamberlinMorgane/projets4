@@ -2,14 +2,98 @@
 
 <template>
     <main>
+        <div class="bg-[url('ciel-filtre.jpg')] w-full">
 
-        <img class="w-full z-0 h-screen mt-10" src="ciel.jpg" alt="ciel">
-        <p class="absolute -mt-96">bonjour</p>
+            <div class="flex pt-20 xl:pl-32 pl-14 space-x-10 relative z-10">
+                <h3
+                    class="z-10 xl:h-20 xl:w-20 h-14 w-14 bg-transparent border-4 border-solid border-black text-center xl:text-7xl text-4xl rounded-xl hover:bg-black hover:text-white hover:border-white">
+                    1
+                </h3>
+                <h3 class="font-caveat xl:text-7xl z-10 text-4xl ">CONTEXT</h3>
+            </div>
+            <p class="mt-20 font-montserrat xl:text-xl pb-48 xl:ml-48 text-center ml-10 mr-10 z-10">Cette animation a été
+                faite dans le
+                cadre
+                de ma
+                formation en
+                MMi,
+                il s’agit
+                d’un travail en
+                design. </p>
+        </div>
 
-        <img class="w-full h-screen opacity-70" src="chateau.jpg" alt="chateau">
-        <img class="w-full h-screen opacity-70" src="corbeau.jpg" alt="corbeau">
-        <img class="w-full h-screen opacity-70" src="fond.jpg" alt="fond">
+        <div class="bg-[url('fond-filtre.jpg')] w-full">
 
+            <div class="flex pt-20 xl:pl-32 pl-14 space-x-10 relative z-10">
+                <h3
+                    class="z-10 xl:h-20 xl:w-20 h-14 w-16 bg-transparent border-4 border-solid border-black text-center xl:text-7xl text-4xl rounded-xl hover:bg-black hover:text-white hover:border-white">
+                    2
+                </h3>
+                <h3 class="font-caveat xl:text-7xl z-10 text-4xl">COMMENT A-T-IL ÉTÉ FAIT ? </h3>
+            </div>
+            <p class="mt-20 font-montserrat xl:text-xl pb-48 xl:ml-48 text-center ml-10 mr-10 z-10">Pour faire cette
+                animation, j'ai utilisé
+                Figma pour
+                vectoriser tous les points de différentes couleurs un à un en utilisant bien sûr des inspiration trouvée sur
+                behance dribble notamment pour les couleurs utilisé qui sont les couleurs foncées pour rappeler un coucher
+                de soleil qui arriverait sur la citadelle.
+
+                Après avoir vectorisé toutes les parties de l’image, je l’ai enregistré en SVG et j’ai mis l’image en SVG
+                sur visuel studio code ou j’ai pu modifier directement les parties de mon SVG qui m’intéressait grâce à du
+                JavaScript. J'ai particulièrement fait bouger les nuages de façon linéaire et en boucle. J'ai utilisé une
+                fonction bounce très lente pour faire descendre et monter mon soleil et enfin, j'ai fait en sorte que mon
+                background fasse une transition en coucher de soleil avec différentes couleurs.</p>
+        </div>
+
+
+        <div class="bg-[url('corbeau-filtre.jpg')] w-full">
+
+            <div class="flex pt-20 xl:pl-32 pl-14 space-x-10 relative z-10">
+                <h3
+                    class="z-10 xl:h-20 xl:w-20 h-14 w-14 bg-transparent border-4 border-solid border-black text-center xl:text-7xl text-4xl rounded-xl hover:bg-black hover:text-white hover:border-white">
+                    3
+                </h3>
+                <h3 class="font-caveat xl:text-7xl z-10 text-4xl ">EN COMBIEN DE TEMPS ET QUAND A-T-IL ÉTÉ FAIT ?</h3>
+            </div>
+            <p class="mt-20 font-montserrat xl:text-xl pb-48 xl:ml-48 text-center ml-10 mr-10 z-10">Ce projet a été fait
+                lors de mon deuxième semestre
+                de ma première année du BUT MMI en mars-avril 2022.
+
+                Pour ce projet, nous avons eu en tout environ 1 mois pour le faire.
+                La partie la plus longue a été la factorisation. </p>
+        </div>
+        <div class="bg-[url('fond-filtre.jpg')] w-full">
+
+            <div class="flex pt-20 xl:pl-32 pl-14 space-x-10 relative z-10">
+                <h3
+                    class="z-10 xl:h-20 xl:w-20 h-14 w-14 bg-transparent border-4 border-solid border-black text-center xl:text-7xl text-4xl rounded-xl hover:bg-black hover:text-white hover:border-white">
+                    4
+                </h3>
+                <h3 class="font-caveat xl:text-7xl z-10 text-4xl">AVEC QUELLES TECHNOLOGIES ? </h3>
+            </div>
+            <div class="grid grid-cols-2">
+                <img class="w-60" src="figma-logo.jpg" alt="">
+                <img class="w-60 rounded-3xl" src="vscode-logo.jpg" alt="">
+            </div>
+
+        </div>
+
+
+        <div class="bg-[url('chateau-filtre.jpg')] w-full">
+
+            <div class="flex pt-20 xl:pl-32 pl-14 space-x-10 relative z-10">
+                <h3
+                    class="z-10 xl:h-20 xl:w-20 h-14 w-14 bg-transparent border-4 border-solid border-black text-center xl:text-7xl text-4xl rounded-xl hover:bg-black hover:text-white hover:border-white">
+                    5
+                </h3>
+                <h3 class="font-caveat xl:text-7xl z-10 text-4xl">CE QUE CA M'A APPORTÉ </h3>
+            </div>
+            <p class="mt-20 font-montserrat xl:text-xl pb-48 xl:ml-48 text-center ml-10 mr-10 z-10">
+                Ce projet m’a appris à vectoriser des images encore aujourd'hui dans mon travail, lorsque je fais quelques
+                designs, j'utilise souvent la vectorisation pour un meilleur rendu. J’utilise maintenant Illustrator pour
+                vectoriser mes projets, mais Figma m’a aidé à apprendre les bases de la vectorisation. Ce projet m’a aussi
+                appris à faire des animations de SVG grâce à des changements dans le code. </p>
+        </div>
 
 
     </main>
