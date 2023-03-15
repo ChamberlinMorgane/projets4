@@ -5,16 +5,16 @@
 
         <div class=" flex w-full h-96 snap-x overflow-x-auto overflow-y-hidden pb-48 mt-10 ">
             <div class="w-full shrink-0 rounded-lg shadow-xl ">
-                <img src="../assets/mockup-citadelle.jpg" alt="image concert" />
+                <img src="../assets/emorphoz1.jpg" alt="image concert" />
             </div>
             <div class="w-full shrink-0 rounded-lg shadow-xl">
-                <img src="../assets/mockup-citadelle-2.jpg" alt="image concert" />
+                <img src="../assets/emorphoz2.jpg" alt="image concert" />
             </div>
             <div class="w-full shrink-0 rounded-lg shadow-xl">
-                <img src="../assets/mockup-citadelle-3.jpg" alt="image concert" />
+                <img src="../assets/emorphoz3.jpg" alt="image concert" />
             </div>
             <div class="w-full shrink-0 rounded-lg shadow-xl">
-                <img src="../assets/mockup-citadelle-4.jpg" alt="image concert" />
+                <img src="../assets/emorphoz4.jpg" alt="image concert" />
             </div>
         </div>
 

@@ -5,16 +5,16 @@
 
         <div class=" flex w-full h-96 snap-x overflow-x-auto overflow-y-hidden pb-48 mt-10 ">
             <div class="w-full shrink-0 rounded-lg shadow-xl ">
-                <img src="../assets/mockup-citadelle.jpg" alt="image concert" />
+                <img src="../assets/carte1.jpg" alt="image concert" />
             </div>
             <div class="w-full shrink-0 rounded-lg shadow-xl">
-                <img src="../assets/mockup-citadelle-2.jpg" alt="image concert" />
+                <img src="../assets/carte2.jpg" alt="image concert" />
             </div>
             <div class="w-full shrink-0 rounded-lg shadow-xl">
-                <img src="../assets/mockup-citadelle-3.jpg" alt="image concert" />
+                <img src="../assets/carte3.jpg" alt="image concert" />
             </div>
             <div class="w-full shrink-0 rounded-lg shadow-xl">
-                <img src="../assets/mockup-citadelle-4.jpg" alt="image concert" />
+                <img src="../assets/carte4.jpg" alt="image concert" />
             </div>
         </div>
 
@@ -36,20 +36,7 @@
             </p>
         </div>
 
-        <div class="bg-[url('fond-filtre.jpg')] w-full">
-
-            <div class="flex pt-20 xl:pl-32 pl-14 space-x-10 relative z-10">
-                <h3
-                    class="z-10 xl:h-20 xl:w-20 h-14 w-16 bg-transparent border-4 border-solid border-black text-center xl:text-7xl text-4xl rounded-xl hover:bg-black hover:text-white hover:border-white">
-                    2
-                </h3>
-                <h3 class="font-caveat xl:text-7xl z-10 text-4xl">LES HARMONIES COLORÉÉ</h3>
-            </div>
-
-        </div>
-
-
-        <div class="bg-[url('rectangle-.jpg')] w-full">
+        <div class=" bg-[url('fond-filtre.jpg')] w-full">
 
             <div class="flex pt-20 xl:pl-32 pl-14 space-x-10 relative z-10">
                 <h3
@@ -73,7 +60,7 @@
                 mis les informations les plus importantes. Et pour finir, nous avons fait un devis dans une imprimerie pour
                 avoir des cartes de visite de bonne qualité.</p>
         </div>
-        <div class="bg-[url('fond-filtre.jpg')] w-full">
+        <div class="bg-[url('rectangle-.jpg')] w-full">
 
             <div class="flex pt-20 xl:pl-32 pl-14 space-x-10 relative z-10">
                 <h3
@@ -90,7 +77,16 @@
                 mettre. </p>
         </div>
 
+        <p class="text-center font-montserrat mt-20 mb-20 xl:text-xl">Voila le rendu final des 3 cartes de visites que j'ai
+            pu
+            créer.
+        </p>
 
+        <div class="grid xl:grid-cols-3 grid-cols-1">
+            <img src="../assets/cartelook.jpg" alt="carte de visite look">
+            <img src="../assets/cartegalopins.jpg" alt="carte de visite galopins">
+            <img src="../assets/cartevictorlouise.png" alt="carte de visite victor et louise">
+        </div>
 
         <div class="container mb-32 mt-11">
             <h2 class="animation xl:text-6xl text-4xl">CONTACT CONTACT CONTACT CONTACT CONTACT</h2>

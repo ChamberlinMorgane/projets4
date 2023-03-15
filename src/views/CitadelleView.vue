@@ -90,9 +90,15 @@
                 </h3>
                 <h3 class="font-caveat xl:text-7xl z-10 text-4xl">AVEC QUELLES TECHNOLOGIES ? </h3>
             </div>
-            <div class="grid grid-cols-2">
-                <img class="w-60" src="../assets/figma-logo.jpg" alt="">
-                <img class="w-60 rounded-3xl" src="../assets/vscode-logo.jpg" alt="">
+            <div class="grid grid-cols-2 mt-20 pb-20">
+                <div class="grid grid-cols-1">
+                    <img class="w-32 m-auto" src="../assets/logofigma.png" alt="logo figma">
+                    <p class="font-montserrat text-center mt-5"> Figma pour la vectorisation</p>
+                </div>
+                <div>
+                    <img class="w-32 m-auto" src="../assets/vscode.png" alt="logo vscode">
+                    <p class="font-montserrat text-center mt-5">Visual Studio Code pour l'animation</p>
+                </div>
             </div>
 
         </div>
