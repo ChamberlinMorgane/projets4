@@ -21,7 +21,7 @@
         <h2 class="xl:-mt-52 z-40 font-inria xl:text-8xl text-center text-4xl -mt-60 text-white ">PROJET EMORPHOZ</h2>
 
 
-        <div class="bg-[url('../assets/ciel-filtre.jpg')] w-full mt-60">
+        <div class="bg-[url('rectangle-.jpg')] w-full mt-60">
 
             <div class="flex pt-20 xl:pl-32 pl-14 space-x-10 relative z-10">
                 <h3
@@ -37,7 +37,7 @@
             </p>
         </div>
 
-        <div class="bg-[url('../assets/fond-filtre.jpg')] w-full">
+        <div class="bg-[url('fond-filtre.jpg')] w-full">
 
             <div class="flex pt-20 xl:pl-32 pl-14 space-x-10 relative z-10">
                 <h3
@@ -46,7 +46,8 @@
                 </h3>
                 <h3 class="font-caveat xl:text-7xl z-10 text-4xl">LE NOM</h3>
                 <div class="grid grid-cols-1 xl:grid-cols-2 pt-60 pb-20 space-x-14 ">
-                    <p class="pr-20">Le nom E-morphoz est composé en 2 parties. La première est le “E” rappelant la
+                    <p class="pr-10 font-montserrat xl:text-xl">Le nom E-morphoz est composé en 2 parties. La première est
+                        le “E” rappelant la
                         technologie, la
                         nouveauté,
                         le digital… Comme on le retrouve souvent dans “E-Sport” ou encore “E-Tech”. La deuxième partie
@@ -56,13 +57,14 @@
                         plusieurs éléments pour créer sa NFT. On retrouve aussi dans la définition de métamorphose l’idée de
                         changement dans un organisme vivant comme un insecte. </p>
                     <img class="w-28 xl:w-60 mt-10" src="../assets/logoemorphoz.svg" alt="logo emorphoz">
+
                 </div>
             </div>
 
         </div>
 
 
-        <div class="bg-[url('../assets/corbeau-filtre.jpg')] w-full">
+        <div class="bg-[url('rectangle-.jpg')] w-full">
 
             <div class="flex pt-20 xl:pl-32 pl-14 space-x-10 relative z-10">
                 <h3
@@ -87,22 +89,22 @@
                 d’une certaine originalité puisqu'il y a quelques fentes qui donnent cet aspect futuriste.
                 Elle a été utilisé pour tout les paragraphes vu qu’elle possède une très bonne lisibilité.
             </p>
-            <div>
-                <img class="w-28 xl:w-60 mt-10" src="../assets/logoemorphoz.svg" alt="logo emorphoz">
-                <img src="" alt="">
+            <div class="grid grid-cols-1 xl:flex m-auto justify-center xl:space-x-20 pb-20">
+                <img class="" src="../assets/ecriture.jpg" alt="typographie 1">
+                <img src="../assets/ecriture2.jpg" alt="typographie 2">
             </div>
         </div>
-        <div class="bg-[url('../assets/fond-filtre.jpg')] w-full">
+        <div class="bg-[url('fond-filtre.jpg')] w-full">
 
             <div class="flex pt-20 xl:pl-32 pl-14 space-x-10 relative z-10">
                 <h3
                     class="z-10 xl:h-20 xl:w-20 h-14 w-14 bg-transparent border-4 border-solid border-black text-center xl:text-7xl text-4xl rounded-xl hover:bg-black hover:text-white hover:border-white">
                     4
                 </h3>
-                <h3 class="font-caveat xl:text-7xl z-10 text-4xl">Harmonie coloré</h3>
+                <h3 class="font-caveat xl:text-7xl z-10 text-4xl">HARMONIE COLORÉ</h3>
             </div>
             <div class="grid grid-cols-1 xl:grid-cols-2 pt-60 pb-20 space-x-14 ">
-                <p class="pr-20">Pour le choix de l’harmonie colorée
+                <p class="pl-20 font-montserrat xl:text-xl">Pour le choix de l’harmonie colorée
 
                     Nous avons décidé de partir sur une harmonie basée sur le violet.
                     En général, sur les différents sites internets, le violet est utilisé pour donner un aspect futuriste.
@@ -119,11 +121,11 @@
                     Au niveau des 2 dernières couleurs, elles ont été appliquées comme couleur tonique pour inciter
                     l’utilisateur de notre site à l’action.
                     Par exemple, pour les boutons du site, une couleur tonique sera parfaite pour attirer l'œil </p>
-
+                <img class="w-48 xl:w-96" src="../assets/harmonie.png" alt="harmonie coloré">
             </div>
         </div>
 
-        <div class="bg-[url('../assets/fond-filtre.jpg')] w-full">
+        <div class="bg-[url('rectangle-.jpg')] w-full">
 
             <div class="flex pt-20 xl:pl-32 pl-14 space-x-10 relative z-10">
                 <h3
@@ -132,29 +134,33 @@
                 </h3>
                 <h3 class="font-caveat xl:text-7xl z-10 text-4xl">CAHIER DES CHARGES</h3>
             </div>
-            <div class="grid grid-cols-1 xl:grid-cols-2 pt-60 pb-20 space-x-14 ">
-                <p class="pr-20">Pour le choix de l’harmonie colorée
 
-                    Nous avons décidé de partir sur une harmonie basée sur le violet.
-                    En général, sur les différents sites internets, le violet est utilisé pour donner un aspect futuriste.
+            <p class="mt-20 font-montserrat xl:text-xl pb-5 xl:ml-48 text-center ml-10 mr-10 z-10">Lors de la création de
+                notre projet, nous avons eu différentes phases tout d'abord nous avons créé le cahier des charges ou nous
+                avons pu mettre toutes nos idées et nos phases de recherche et d'études de marché.</p>
+            <p class="mt-5 font-montserrat xl:text-xl pb-48 xl:ml-48 text-center ml-10 mr-10 z-10">Ensuite, nous avons fait
+                simultanément notre plan de communication qui est une étape primordiale pour un chargé de communication, car
+                c'est à ce moment où nous avons décrit sur quels supports nous allions baser notre communication et
+                commencer à faire un planning de communication sur ces différents supports.
+                Ensuite le dossier SEO qui est primordial lorsque nous voulons créer un site web, il sert à bien référencer
+                notre site une fois déployé dans ce dossier SEO, on a pu analyser les concurrents et aussi savoir sur quels
+                mots-clés se baser si on veut un bon référencement.
+            </p>
+
+            <div class="grid grid-cols-1 xl:grid-cols-3 pb-20 ">
 
 
-                    Pour la couleur blanche, elle à été utilisée principalement pour la typographie. En effet c’est une
-                    couleur qui contraste très bien avec les couleurs sombres en fond comme le violet foncée sur le site.
-                    Ceci respecte donc les normes de contraste pour la lisibilité.
-
-                    Pour les couleurs violettes elle ont été utilisé pour créer le fond de notre site:
-                    en utilisant le violet le plus foncé comme couleur de fond et l’autre pour faire un effet de dégradé en
-                    utilisant la propriété “blur” dans Figma.
-
-                    Au niveau des 2 dernières couleurs, elles ont été appliquées comme couleur tonique pour inciter
-                    l’utilisateur de notre site à l’action.
-                    Par exemple, pour les boutons du site, une couleur tonique sera parfaite pour attirer l'œil </p>
+                <a href="cdc.pdf" download rel="noopener noreferrer" target="_blank"><img class=""
+                        src="../assets/cahierdescharges.jpg" alt="icone téléchargement"></a>
+                <a href="seo.pdf" download rel="noopener noreferrer" target="_blank"><img class="" src="../assets/seo.jpg"
+                        alt="icone téléchargement"></a>
+                <a href="stratcom.pdf" download rel="noopener noreferrer" target="_blank"><img class=""
+                        src="../assets/plandecom.jpg" alt="icone téléchargement"></a>
 
             </div>
         </div>
 
-        <div class="bg-[url('../assets/fond-filtre.jpg')] w-full">
+        <div class="bg-[url('fond-filtre.jpg')] w-full">
 
             <div class="flex pt-20 xl:pl-32 pl-14 space-x-10 relative z-10">
                 <h3
@@ -163,29 +169,33 @@
                 </h3>
                 <h3 class="font-caveat xl:text-7xl z-10 text-4xl">COMMUNICATIONS</h3>
             </div>
-            <div class="grid grid-cols-1 xl:grid-cols-2 pt-60 pb-20 space-x-14 ">
-                <p class="pr-20">Pour le choix de l’harmonie colorée
+            <p class="mt-20 font-montserrat xl:text-xl pb-48 xl:ml-48 text-center ml-10 mr-10 z-10">Pour faire connaitre ce
+                projet nous avons du faire un grand travail de communication en créant des compte instagram TikTok et
+                Twitter au nom du projet pour qu'il ait une identité sur ces différentes plateforme qui sont de nos jours
+                indispensables a une bonne communication.</p>
 
-                    Nous avons décidé de partir sur une harmonie basée sur le violet.
-                    En général, sur les différents sites internets, le violet est utilisé pour donner un aspect futuriste.
-
-
-                    Pour la couleur blanche, elle à été utilisée principalement pour la typographie. En effet c’est une
-                    couleur qui contraste très bien avec les couleurs sombres en fond comme le violet foncée sur le site.
-                    Ceci respecte donc les normes de contraste pour la lisibilité.
-
-                    Pour les couleurs violettes elle ont été utilisé pour créer le fond de notre site:
-                    en utilisant le violet le plus foncé comme couleur de fond et l’autre pour faire un effet de dégradé en
-                    utilisant la propriété “blur” dans Figma.
-
-                    Au niveau des 2 dernières couleurs, elles ont été appliquées comme couleur tonique pour inciter
-                    l’utilisateur de notre site à l’action.
-                    Par exemple, pour les boutons du site, une couleur tonique sera parfaite pour attirer l'œil </p>
+            <div class="grid grid-cols-1 xl:grid-cols-3">
+                <div>
+                    <img src="../assets/instagram1.jpg" alt="post insta">
+                    <p class="pt-10 pb-10 xl:text-xl font-montserrat text-center">Exemple de post montrant une coccinnelle
+                        fait avec différents calques</p>
+                </div>
+                <div>
+                    <img src="../assets/instagram2.jpg" alt="post insta">
+                    <p class="pt-10 pb-10 xl:text-xl font-montserrat text-center">Exemple de post instagram montrant notre
+                        collaboration avec l'association OPIE</p>
+                </div>
+                <div>
+                    <img src="../assets/instagram3.jpg" alt="post insta">
+                    <p class="pt-10 pb-10 xl:text-xl font-montserrat text-center">Exemple de post Instagram dévoilant les
+                        membres du projet</p>
+                </div>
 
             </div>
         </div>
 
-        <div class="bg-[url('../assets/fond-filtre.jpg')] w-full">
+
+        <div class="bg-[url('rectangle-.jpg')] w-full">
 
             <div class="flex pt-20 xl:pl-32 pl-14 space-x-10 relative z-10">
                 <h3
@@ -194,26 +204,16 @@
                 </h3>
                 <h3 class="font-caveat xl:text-7xl z-10 text-4xl">CE QUE CA M'A APPORTÉ</h3>
             </div>
-            <div class="grid grid-cols-1 xl:grid-cols-2 pt-60 pb-20 space-x-14 ">
-                <p class="pr-20">Pour le choix de l’harmonie colorée
 
-                    Nous avons décidé de partir sur une harmonie basée sur le violet.
-                    En général, sur les différents sites internets, le violet est utilisé pour donner un aspect futuriste.
+            <p class="mt-20 font-montserrat xl:text-xl pb-48 xl:ml-48 text-center ml-10 mr-10 z-10">Emorphoz fut le premier
+                projet à être poussé jusqu’au bout au niveau de la communication, à
+                passer par toutes les étapes d’une bonne communication, j'ai donc pu me mettre dans les réelles
+                conditions d’un chargé de communication qui doit mener à bien la création et la mise en application
+                d’une communication viable. Ça m’a appris à faire un dossier qui se doit d’être long et complet en peu
+                de temps. J'ai aussi appris à travailler en équipe avec des personnes de pôles différents ce qui a
+                demandé beaucoup d'organisation.
+                l </p>
 
-
-                    Pour la couleur blanche, elle à été utilisée principalement pour la typographie. En effet c’est une
-                    couleur qui contraste très bien avec les couleurs sombres en fond comme le violet foncée sur le site.
-                    Ceci respecte donc les normes de contraste pour la lisibilité.
-
-                    Pour les couleurs violettes elle ont été utilisé pour créer le fond de notre site:
-                    en utilisant le violet le plus foncé comme couleur de fond et l’autre pour faire un effet de dégradé en
-                    utilisant la propriété “blur” dans Figma.
-
-                    Au niveau des 2 dernières couleurs, elles ont été appliquées comme couleur tonique pour inciter
-                    l’utilisateur de notre site à l’action.
-                    Par exemple, pour les boutons du site, une couleur tonique sera parfaite pour attirer l'œil </p>
-
-            </div>
         </div>
 
 
@@ -269,5 +269,4 @@ export default {
         transform: translateX(100%)
     }
 
-}
-</style>
+}</style>
