@@ -2,7 +2,26 @@
 
 <template>
     <main>
-        <div class="bg-[url('ciel-filtre.jpg')] w-full">
+
+        <div class=" flex w-full h-96 snap-x overflow-x-auto overflow-y-hidden pb-48 mt-10 ">
+            <div class="w-full shrink-0 rounded-lg shadow-xl ">
+                <img src="mockup-citadelle.jpg" alt="image concert" />
+            </div>
+            <div class="w-full shrink-0 rounded-lg shadow-xl">
+                <img src="mockup-citadelle-2.jpg" alt="image concert" />
+            </div>
+            <div class="w-full shrink-0 rounded-lg shadow-xl">
+                <img src="mockup-citadelle-3.jpg" alt="image concert" />
+            </div>
+            <div class="w-full shrink-0 rounded-lg shadow-xl">
+                <img src="mockup-citadelle-4.jpg" alt="image concert" />
+            </div>
+        </div>
+
+        <h2 class="xl:-mt-52 z-40 font-inria xl:text-8xl text-center text-4xl -mt-60 text-white ">ANIMATION CITADELLE</h2>
+
+
+        <div class="bg-[url('ciel-filtre.jpg')] w-full mt-60">
 
             <div class="flex pt-20 xl:pl-32 pl-14 space-x-10 relative z-10">
                 <h3
@@ -94,7 +113,62 @@
                 vectoriser mes projets, mais Figma m’a aidé à apprendre les bases de la vectorisation. Ce projet m’a aussi
                 appris à faire des animations de SVG grâce à des changements dans le code. </p>
         </div>
+        <p class="font-montserrat text-center mt-20 mb-20 xl:text-xl">Voici différentes parties de mon animation. </p>
+        <div class="xl:grid xl:grid-cols-2 w-screen overflow-hidden">
+            <img class="" src="citadelle.jpg" alt="">
+            <img class="" src="citadelle-besancon.jpg" alt="">
+        </div>
+
+        <div class="container mb-32 mt-11">
+            <h2 class="animation xl:text-6xl text-4xl">CONTACT CONTACT CONTACT CONTACT CONTACT</h2>
+            <div class=" -mt-20 h-28 w-full z-0 bg-pink-300 bg-opacity-20"></div>
+        </div>
+
+
+        <section id="contact">
+            <div class=" xl:p-8 xl:my-32 mt-32">
+                <ContactForm />
+            </div>
+        </section>
 
 
     </main>
 </template>
+
+<script>
+import ContactForm from '@/components/ContactForm.vue'
+
+export default {
+    components: {
+        ContactForm
+    }
+}
+
+
+</script>
+
+<style>
+.container {
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+}
+
+.animation {
+    overflow: hidden;
+    white-space: nowrap;
+    animation: translate 20s linear infinite
+}
+
+@keyframes translate {
+
+    0% {
+        transform: translateX(-100%)
+    }
+
+    100% {
+        transform: translateX(100%)
+    }
+
+}
+</style>
