@@ -20,6 +20,14 @@ module.exports = {
         // Ici vos familles de polices exportées de Figma
         // Ne pas oublier de les charger dans '/index.html' !
       },
+
+      backgroundImage: {
+        'fond': "url('fond.jpg')",
+        'chateau': "url('chateau.jpg')",
+        'ciel': "url('ciel.jpg')",
+        'soleil': "url('soleil.jpg')",
+        'corbeau': "url('corbeau.jpg')",
+      }
     },
 
   },
