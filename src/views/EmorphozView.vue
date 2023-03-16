@@ -28,7 +28,7 @@
                     class="z-10 xl:h-20 xl:w-20 h-14 w-14 bg-transparent border-4 border-solid border-black text-center xl:text-7xl text-4xl rounded-xl hover:bg-black hover:text-white hover:border-white">
                     1
                 </h3>
-                <h3 class="font-caveat xl:text-7xl z-10 text-4xl ">CONTEXT</h3>
+                <h3 class="font-caveat xl:text-7xl z-10 text-3xl ">CONTEXT</h3>
             </div>
             <p class="mt-20 font-montserrat xl:text-xl pb-48 xl:ml-48 text-center ml-10 mr-10 z-10">Ce projet a été fait
                 dans le cadre d’un exercice pédagogique scolaire de S4. Dans ce projet, j'ai été chargée de communication
@@ -44,23 +44,24 @@
                     class="z-10 xl:h-20 xl:w-20 h-14 w-16 bg-transparent border-4 border-solid border-black text-center xl:text-7xl text-4xl rounded-xl hover:bg-black hover:text-white hover:border-white">
                     2
                 </h3>
-                <h3 class="font-caveat xl:text-7xl z-10 text-4xl">LE NOM</h3>
-                <div class="grid grid-cols-1 xl:grid-cols-2 pt-60 pb-20 space-x-14 ">
-                    <p class="xl:pr-10 font-montserrat xl:text-xl text-center">Le nom E-morphoz est composé en 2 parties. La
-                        première
-                        est
-                        le “E” rappelant la
-                        technologie, la
-                        nouveauté,
-                        le digital… Comme on le retrouve souvent dans “E-Sport” ou encore “E-Tech”. La deuxième partie
-                        “Morphoz”
-                        fait référence au mot métamorphose, on retrouve là-dedans le principe du générateur qui est
-                        d’assembler
-                        plusieurs éléments pour créer sa NFT. On retrouve aussi dans la définition de métamorphose l’idée de
-                        changement dans un organisme vivant comme un insecte. </p>
-                    <img class="w-28 xl:w-60 mt-10" src="../assets/logoemorphoz.svg" alt="logo emorphoz">
+                <h3 class="font-caveat xl:text-7xl z-10 text-3xl">LE NOM</h3>
 
-                </div>
+                <p class=" mt-20 font-montserrat xl:text-xl pb-48 xl:ml-48 text-center ml-10 mr-10 z-10">Le nom E-morphoz
+                    est composé en 2 parties. La
+                    première
+                    est
+                    le “E” rappelant la
+                    technologie, la
+                    nouveauté,
+                    le digital… Comme on le retrouve souvent dans “E-Sport” ou encore “E-Tech”. La deuxième partie
+                    “Morphoz”
+                    fait référence au mot métamorphose, on retrouve là-dedans le principe du générateur qui est
+                    d’assembler
+                    plusieurs éléments pour créer sa NFT. On retrouve aussi dans la définition de métamorphose l’idée de
+                    changement dans un organisme vivant comme un insecte. </p>
+                <img class="w-28 xl:w-60 mt-10" src="../assets/logoemorphoz.svg" alt="logo emorphoz">
+
+
             </div>
 
         </div>
@@ -73,7 +74,7 @@
                     class="z-10 xl:h-20 xl:w-20 h-14 w-14 bg-transparent border-4 border-solid border-black text-center xl:text-7xl text-4xl rounded-xl hover:bg-black hover:text-white hover:border-white">
                     3
                 </h3>
-                <h3 class="font-caveat xl:text-7xl z-10 text-4xl  ">TYPOGRAPHIES UTILISÉE </h3>
+                <h3 class="font-caveat xl:text-7xl z-10 text-3xl  ">TYPOGRAPHIES UTILISÉE </h3>
             </div>
             <p class="mt-20 font-montserrat xl:text-xl pb-48 xl:ml-48 text-center ml-10 mr-10 z-10">Pour le choix de la
                 typographie
@@ -103,7 +104,7 @@
                     class="z-10 xl:h-20 xl:w-20 h-14 w-14 bg-transparent border-4 border-solid border-black text-center xl:text-7xl text-4xl rounded-xl hover:bg-black hover:text-white hover:border-white">
                     4
                 </h3>
-                <h3 class="font-caveat xl:text-7xl z-10 text-4xl">HARMONIE COLORÉ</h3>
+                <h3 class="font-caveat xl:text-7xl z-10 text-3xl">HARMONIE COLORÉ</h3>
             </div>
             <div class="grid grid-cols-1 xl:grid-cols-2 pt-60 pb-20 space-x-14 ">
                 <p class="pl-20 font-montserrat xl:text-xl">Pour le choix de l’harmonie colorée
@@ -134,7 +135,7 @@
                     class="z-10 xl:h-20 xl:w-20 h-14 w-14 bg-transparent border-4 border-solid border-black text-center xl:text-7xl text-4xl rounded-xl hover:bg-black hover:text-white hover:border-white">
                     5
                 </h3>
-                <h3 class="font-caveat xl:text-7xl z-10 text-4xl">CAHIER DES CHARGES</h3>
+                <h3 class="font-caveat xl:text-7xl z-10 text-3xl">CAHIER DES CHARGES</h3>
             </div>
 
             <p class="mt-20 font-montserrat xl:text-xl pb-5 xl:ml-48 text-center ml-10 mr-10 z-10">Lors de la création de
@@ -169,7 +170,7 @@
                     class="z-10 xl:h-20 xl:w-20 h-14 w-14 bg-transparent border-4 border-solid border-black text-center xl:text-7xl text-4xl rounded-xl hover:bg-black hover:text-white hover:border-white">
                     6
                 </h3>
-                <h3 class="font-caveat xl:text-7xl z-10 text-4xl">COMMUNICATIONS</h3>
+                <h3 class="font-caveat xl:text-7xl z-10 text-3xl">COMMUNICATIONS</h3>
             </div>
             <p class="mt-20 font-montserrat xl:text-xl pb-48 xl:ml-48 text-center ml-10 mr-10 z-10">Pour faire connaitre ce
                 projet nous avons du faire un grand travail de communication en créant des compte instagram TikTok et
@@ -204,7 +205,7 @@
                     class="z-10 xl:h-20 xl:w-20 h-14 w-14 bg-transparent border-4 border-solid border-black text-center xl:text-7xl text-4xl rounded-xl hover:bg-black hover:text-white hover:border-white">
                     7
                 </h3>
-                <h3 class="font-caveat xl:text-7xl z-10 text-4xl">CE QUE CA M'A APPORTÉ</h3>
+                <h3 class="font-caveat xl:text-7xl z-10 text-3xl">CE QUE CA M'A APPORTÉ</h3>
             </div>
 
             <p class="mt-20 font-montserrat xl:text-xl pb-48 xl:ml-48 text-center ml-10 mr-10 z-10">Emorphoz fut le premier

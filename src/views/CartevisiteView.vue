@@ -28,7 +28,7 @@
                     class="z-10 xl:h-20 xl:w-20 h-14 w-14 bg-transparent border-4 border-solid border-black text-center xl:text-7xl text-4xl rounded-xl hover:bg-black hover:text-white hover:border-white">
                     1
                 </h3>
-                <h3 class="font-caveat xl:text-7xl z-10 text-4xl ">CONTEXT</h3>
+                <h3 class="font-caveat xl:text-7xl z-10 text-3xl ">CONTEXT</h3>
             </div>
             <p class="mt-20 font-montserrat xl:text-xl pb-48 xl:ml-48 text-center ml-10 mr-10 z-10">Les cartes de visite ont
                 été faites dans le cadre d’un travail à mon alternance, le but est de pouvoir les glisser dans des sacs lors
@@ -43,7 +43,7 @@
                     class="z-10 xl:h-20 xl:w-20 h-14 w-14 bg-transparent border-4 border-solid border-black text-center xl:text-7xl text-4xl rounded-xl hover:bg-black hover:text-white hover:border-white">
                     3
                 </h3>
-                <h3 class="font-caveat xl:text-7xl z-10 text-4xl  ">COMMENT ONT-T-ELLES ÉTÉ FAITES ? </h3>
+                <h3 class="font-caveat xl:text-7xl z-10 text-3xl  ">COMMENT ONT-T-ELLES ÉTÉ FAITES ? </h3>
             </div>
             <p class="mt-20 font-montserrat xl:text-xl pb-48 xl:ml-48 text-center ml-10 mr-10 z-10">J’ai tout d’abord pris
                 des mesures de carte de visite standard pour ensuite les appliquer sur canva. J'ai pris la charte de couleur
@@ -67,7 +67,7 @@
                     class="z-10 xl:h-20 xl:w-20 h-14 w-14 bg-transparent border-4 border-solid border-black text-center xl:text-7xl text-4xl rounded-xl hover:bg-black hover:text-white hover:border-white">
                     4
                 </h3>
-                <h3 class="font-caveat xl:text-7xl z-10 text-4xl">CE QUE CA M'A APPORTÉ</h3>
+                <h3 class="font-caveat xl:text-7xl z-10 text-3xl">CE QUE CA M'A APPORTÉ</h3>
             </div>
 
             <p class="mt-20 font-montserrat xl:text-xl pb-48 xl:ml-48 text-center ml-10 mr-10 z-10">J’ai beaucoup aimé faire

@@ -28,7 +28,7 @@
                     class="z-10 xl:h-20 xl:w-20 h-14 w-14 bg-transparent border-4 border-solid border-black text-center xl:text-7xl text-4xl rounded-xl hover:bg-black hover:text-white hover:border-white">
                     1
                 </h3>
-                <h3 class="font-caveat xl:text-7xl z-10 text-4xl ">CONTEXT</h3>
+                <h3 class="font-caveat xl:text-7xl z-10 text-3xl ">CONTEXT</h3>
             </div>
             <p class="mt-20 font-montserrat xl:text-xl pb-48 xl:ml-48 text-center ml-10 mr-10 z-10">
 
@@ -45,7 +45,7 @@
                     class="z-10 xl:h-20 xl:w-20 h-14 w-16 bg-transparent border-4 border-solid border-black text-center xl:text-7xl text-4xl rounded-xl hover:bg-black hover:text-white hover:border-white">
                     2
                 </h3>
-                <h3 class="font-caveat xl:text-7xl z-10 text-4xl">COMMENT ONT-T-ELLES ÉTÉ FAITES ? </h3>
+                <h3 class="font-caveat xl:text-7xl z-10 text-3xl">COMMENT ONT-T-ELLES ÉTÉ FAITES ? </h3>
             </div>
             <p class="mt-20 font-montserrat xl:text-xl pb-48 xl:ml-48 text-center ml-10 mr-10 z-10">Pour faire cette
                 Pour faire des affiches, j’ai tout d’abord pris le temps d’analyser à quel moment de l’année, nous étions.
@@ -72,7 +72,7 @@
                     class="z-10 xl:h-20 xl:w-20 h-14 w-14 bg-transparent border-4 border-solid border-black text-center xl:text-7xl text-4xl rounded-xl hover:bg-black hover:text-white hover:border-white">
                     3
                 </h3>
-                <h3 class="font-caveat xl:text-7xl z-10 text-4xl ">EN COMBIEN DE TEMPS ET QUAND ONT-T-ELLES ÉTÉ FAITES ?
+                <h3 class="font-caveat xl:text-7xl z-10 text-3xl ">EN COMBIEN DE TEMPS ET QUAND ONT-T-ELLES ÉTÉ FAITES ?
                 </h3>
             </div>
             <p class="mt-20 font-montserrat xl:text-xl pb-48 xl:ml-48 text-center ml-10 mr-10 z-10">La première affiche que
@@ -87,7 +87,7 @@
                     class="z-10 xl:h-20 xl:w-20 h-14 w-14 bg-transparent border-4 border-solid border-black text-center xl:text-7xl text-4xl rounded-xl hover:bg-black hover:text-white hover:border-white">
                     4
                 </h3>
-                <h3 class="font-caveat xl:text-7xl z-10 text-4xl">AVEC QUELLES TECHNOLOGIES ? </h3>
+                <h3 class="font-caveat xl:text-7xl z-10 text-3xl">AVEC QUELLES TECHNOLOGIES ? </h3>
             </div>
             <div class="grid grid-cols-2 mt-20 pb-20">
                 <div class="grid grid-cols-1">
@@ -110,7 +110,7 @@
                     class="z-10 xl:h-20 xl:w-20 h-14 w-14 bg-transparent border-4 border-solid border-black text-center xl:text-7xl text-4xl rounded-xl hover:bg-black hover:text-white hover:border-white">
                     5
                 </h3>
-                <h3 class="font-caveat xl:text-7xl z-10 text-4xl">CE QUE CA M'A APPORTÉ </h3>
+                <h3 class="font-caveat xl:text-7xl z-10 text-3xl">CE QUE CA M'A APPORTÉ </h3>
             </div>
             <p class="mt-20 font-montserrat xl:text-xl pb-48 xl:ml-48 text-center ml-10 mr-10 z-10">
                 En faisant ce travail, j'ai appris comment faire des affiches claires et qui était attractive. J’ai tout
