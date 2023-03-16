@@ -122,13 +122,33 @@
         <p class="font-montserrat text-center mt-20 mb-20 xl:text-xl">Voici différentes parties de mon animation. </p>
         <div class="xl:grid xl:grid-cols-2 w-screen overflow-hidden">
             <img class="" src="../assets/citadelle.jpg" alt="">
-            <img class="" src="../assets/citadelle-besancon.jpg" alt="">
+            <img class="h-full" src="../assets/citadelle-besancon.jpg" alt="">
         </div>
+
+        <router-link class="" to="Mesprojets">
+            <p class=" text-center pt-20 mb-20 font-montserrat text-xl">Voir plus de
+                projet
+            </p>
+        </router-link>
+        <div class="border-black border-b-2 w-48 m-auto -mt-16"></div>
+
 
         <div class="container mb-32 mt-11">
             <h2 class="animation xl:text-6xl text-4xl">CONTACT CONTACT CONTACT CONTACT CONTACT</h2>
             <div class=" -mt-20 h-28 w-full z-0 bg-pink-300 bg-opacity-20"></div>
         </div>
+        <p class="font-montserrat text-center xl:text-xl mt-52 ml-20 mr-20">Si vous avez des questions, des commentaires ou
+            des
+            préoccupations
+            concernant
+            nos
+            produits ou services, n'hésitez
+            pas à nous contacter. Nous sommes là pour vous aider de toutes les manières possibles.
+
+            Vous pouvez nous contacter en remplissant le formulaire de contact ci-dessous. Nous nous efforcerons de vous
+            répondre dans les plus brefs délais.
+
+        </p>
 
 
         <section id="contact">

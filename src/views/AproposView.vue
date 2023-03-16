@@ -97,6 +97,18 @@
             <div class=" -mt-20 h-28 w-full z-0 bg-pink-300 bg-opacity-20"></div>
         </div>
 
+        <p class="font-montserrat text-center xl:text-xl mt-52 ml-20 mr-20">Si vous avez des questions, des commentaires ou
+            des
+            préoccupations
+            concernant
+            nos
+            produits ou services, n'hésitez
+            pas à nous contacter. Nous sommes là pour vous aider de toutes les manières possibles.
+
+            Vous pouvez nous contacter en remplissant le formulaire de contact ci-dessous. Nous nous efforcerons de vous
+            répondre dans les plus brefs délais.
+
+        </p>
 
         <section id="contact">
             <div class=" xl:p-8 xl:my-32 mt-32">
