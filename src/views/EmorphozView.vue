@@ -46,22 +46,22 @@
                 </h3>
                 <h3 class="font-caveat xl:text-7xl z-10 text-3xl">LE NOM</h3>
 
-                <p class=" mt-20 font-montserrat xl:text-xl pb-48 xl:ml-48 text-center ml-10 mr-10 z-10">Le nom E-morphoz
-                    est composé en 2 parties. La
-                    première
-                    est
-                    le “E” rappelant la
-                    technologie, la
-                    nouveauté,
-                    le digital… Comme on le retrouve souvent dans “E-Sport” ou encore “E-Tech”. La deuxième partie
-                    “Morphoz”
-                    fait référence au mot métamorphose, on retrouve là-dedans le principe du générateur qui est
-                    d’assembler
-                    plusieurs éléments pour créer sa NFT. On retrouve aussi dans la définition de métamorphose l’idée de
-                    changement dans un organisme vivant comme un insecte. </p>
-                <img class="w-28 xl:w-60 mt-10" src="../assets/logoemorphoz.svg" alt="logo emorphoz">
-
-
+                <div class="grid grid-cols-1 xl:grid-cols-2 pt-60 pb-20 space-x-14 ">
+                    <p class="pl-20 font-montserrat xl:text-xl">Le nom E-morphoz
+                        est composé en 2 parties. La
+                        première
+                        est
+                        le “E” rappelant la
+                        technologie, la
+                        nouveauté,
+                        le digital… Comme on le retrouve souvent dans “E-Sport” ou encore “E-Tech”. La deuxième partie
+                        “Morphoz”
+                        fait référence au mot métamorphose, on retrouve là-dedans le principe du générateur qui est
+                        d’assembler
+                        plusieurs éléments pour créer sa NFT. On retrouve aussi dans la définition de métamorphose l’idée de
+                        changement dans un organisme vivant comme un insecte. </p>
+                    <img class="w-48 xl:w-96" src="../assets/logoemorphoz.svg" alt="harmonie coloré">
+                </div>
             </div>
 
         </div>
