@@ -41,29 +41,28 @@
 
             <div class="flex pt-20 xl:pl-32 pl-14 space-x-10 relative z-10">
                 <h3
-                    class="z-10 xl:h-20 xl:w-20 h-14 w-16 bg-transparent border-4 border-solid border-black text-center xl:text-7xl text-4xl rounded-xl hover:bg-black hover:text-white hover:border-white">
-                    2
+                    class="z-10 xl:h-20 xl:w-20 h-14 w-14 bg-transparent border-4 border-solid border-black text-center xl:text-7xl text-4xl rounded-xl hover:bg-black hover:text-white hover:border-white">
+                    3
                 </h3>
-                <h3 class="font-caveat xl:text-7xl z-10 text-3xl">LE NOM</h3>
-
-                <div class="grid grid-cols-1 xl:grid-cols-2 pt-60 pb-20 space-x-14 ">
-                    <p class="xl:pl-20 font-montserrat xl:text-xl text-center">Le nom E-morphoz
-                        est composé en 2 parties. La
-                        première
-                        est
-                        le “E” rappelant la
-                        technologie, la
-                        nouveauté,
-                        le digital… Comme on le retrouve souvent dans “E-Sport” ou encore “E-Tech”. La deuxième partie
-                        “Morphoz”
-                        fait référence au mot métamorphose, on retrouve là-dedans le principe du générateur qui est
-                        d’assembler
-                        plusieurs éléments pour créer sa NFT. On retrouve aussi dans la définition de métamorphose l’idée de
-                        changement dans un organisme vivant comme un insecte. </p>
-                    <img class="w-48 xl:w-96 items-center" src="../assets/logoemorphoz.svg" alt="harmonie coloré">
-                </div>
+                <h3 class="font-caveat xl:text-7xl z-10 text-3xl  ">LE NOM </h3>
             </div>
-
+            <p class="mt-20 font-montserrat xl:text-xl pb-48 xl:ml-48 text-center ml-10 mr-10 z-10">Le nom E-morphoz
+                est composé en 2 parties. La
+                première
+                est
+                le “E” rappelant la
+                technologie, la
+                nouveauté,
+                le digital… Comme on le retrouve souvent dans “E-Sport” ou encore “E-Tech”. La deuxième partie
+                “Morphoz”
+                fait référence au mot métamorphose, on retrouve là-dedans le principe du générateur qui est
+                d’assembler
+                plusieurs éléments pour créer sa NFT. On retrouve aussi dans la définition de métamorphose l’idée de
+                changement dans un organisme vivant comme un insecte.
+            </p>
+            <div class="grid grid-cols-1 xl:flex m-auto justify-center xl:space-x-20 pb-20">
+                <img class="w-48 xl:w-96 items-center" src="../assets/logoemorphoz.svg" alt="harmonie coloré">
+            </div>
         </div>
 
 
