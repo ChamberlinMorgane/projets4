@@ -21,7 +21,7 @@
         <h2 class="xl:-mt-52 z-40 font-inria xl:text-8xl text-center text-4xl -mt-60 text-white ">PROJET EMORPHOZ</h2>
 
 
-        <div class="bg-[url('rectangle-.jpg')] w-full mt-60">
+        <div class="bg-gray-200 h-full w-full mt-60">
 
             <div class="flex pt-20 xl:pl-32 pl-14 space-x-10 relative z-10">
                 <h3
@@ -37,7 +37,7 @@
             </p>
         </div>
 
-        <div class="bg-[url('fond-filtre.jpg')] w-full">
+        <div class=" bg-lime-800 bg-opacity-40 h-full w-full">
 
             <div class="flex pt-20 xl:pl-32 pl-14 space-x-10 relative z-10">
                 <h3
@@ -66,7 +66,7 @@
         </div>
 
 
-        <div class="bg-[url('rectangle-.jpg')] w-full">
+        <div class="bg-gray-200 h-full w-full">
 
             <div class="flex pt-20 xl:pl-32 pl-14 space-x-10 relative z-10">
                 <h3
@@ -96,7 +96,7 @@
                 <img src="../assets/ecriture2.jpg" alt="typographie 2">
             </div>
         </div>
-        <div class="bg-[url('fond-filtre.jpg')] w-full">
+        <div class=" bg-lime-800 bg-opacity-40 h-full w-full">
 
             <div class="flex pt-20 xl:pl-32 pl-14 space-x-10 relative z-10">
                 <h3
@@ -127,7 +127,7 @@
             </div>
         </div>
 
-        <div class="bg-[url('rectangle-.jpg')] w-full">
+        <div class="bg-gray-200 h-full w-full">
 
             <div class="flex pt-20 xl:pl-32 pl-14 space-x-10 relative z-10">
                 <h3
@@ -162,7 +162,7 @@
             </div>
         </div>
 
-        <div class="bg-[url('fond-filtre.jpg')] w-full">
+        <div class=" bg-lime-800 bg-opacity-40 h-full w-full">
 
             <div class="flex pt-20 xl:pl-32 pl-14 space-x-10 relative z-10">
                 <h3
@@ -197,7 +197,7 @@
         </div>
 
 
-        <div class="bg-[url('rectangle-.jpg')] w-full">
+        <div class="bg-gray-200 h-full w-full">
 
             <div class="flex pt-20 xl:pl-32 pl-14 space-x-10 relative z-10">
                 <h3

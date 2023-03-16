@@ -21,7 +21,7 @@
         <h2 class="xl:-mt-52 z-40 font-inria xl:text-8xl text-center text-4xl -mt-60 text-white ">AFFICHE PUBLICITAIRE</h2>
 
 
-        <div class="bg-[url('rectangle-.jpg')] w-full mt-60">
+        <div class="bg-gray-200 h-full w-full mt-60">
 
             <div class="flex pt-20 xl:pl-32 pl-14 space-x-10 relative z-10">
                 <h3
@@ -38,7 +38,7 @@
             </p>
         </div>
 
-        <div class="bg-[url('fond-filtre.jpg')] w-full">
+        <div class=" bg-lime-800 bg-opacity-40 h-full w-full">
 
             <div class="flex pt-20 xl:pl-32 pl-14 space-x-10 relative z-10">
                 <h3
@@ -65,7 +65,7 @@
         </div>
 
 
-        <div class="bg-[url('rectangle-.jpg')] w-full">
+        <div class="bg-gray-200 h-full w-full">
 
             <div class="flex pt-20 xl:pl-32 pl-14 space-x-10 relative z-10">
                 <h3
@@ -80,7 +80,7 @@
                 affiches qui étaient des affiches que j’ai pu réaliser pour les magasins Les Galopins et La Chaise Longue de
                 Montbéliard ont été faits en 2 jours.</p>
         </div>
-        <div class="bg-[url('fond-filtre.jpg')] w-full">
+        <div class=" bg-lime-800 bg-opacity-40 h-full w-full">
 
             <div class="flex pt-20 xl:pl-32 pl-14 space-x-10 relative z-10">
                 <h3
@@ -103,7 +103,7 @@
         </div>
 
 
-        <div class="bg-[url('rectangle-.jpg')] w-full">
+        <div class=" bg-gray-200 h-full w-full">
 
             <div class="flex pt-20 xl:pl-32 pl-14 space-x-10 relative z-10">
                 <h3
