@@ -31,7 +31,7 @@
                 <h3 class="font-caveat xl:text-7xl z-10 text-3xl ">CONTEXT</h3>
             </div>
             <p class="mt-20 font-montserrat xl:text-xl pb-48 xl:ml-48 text-center ml-10 mr-10 z-10">Ce projet a été fait
-                dans le cadre d’un exercice pédagogique scolaire de S4. Dans ce projet, j'ai été chargée de communication
+                dans le cadre d’un exercice pédagogique scolaire de S3. Dans ce projet, j'ai été chargée de communication
                 avec une autre de mes camarades. Le Sujet était de faire un site de générateur de NFT avec 4 autres de mes
                 camarades qui était dans différente pôle de fabrication de ce projet.
             </p>
