@@ -46,7 +46,7 @@
                 </h3>
                 <h3 class="font-caveat xl:text-7xl z-10 text-3xl  ">LE NOM </h3>
             </div>
-            <p class="mt-20 font-montserrat xl:text-xl pb-48 xl:ml-48 text-center ml-10 mr-10 z-10">Le nom E-morphoz
+            <p class="mt-20 font-montserrat xl:text-xl pb-20 xl:ml-48 text-center ml-10 mr-10 z-10">Le nom E-morphoz
                 est composé en 2 parties. La
                 première
                 est
@@ -61,7 +61,7 @@
                 changement dans un organisme vivant comme un insecte.
             </p>
 
-            <img class="w-48 xl:w-96 items-center" src="../assets/logoemorphoz.svg" alt="harmonie coloré">
+            <img class="w-48 xl:w-96 items-center m-auto pb-20" src="../assets/logoemorphoz.svg" alt="harmonie coloré">
 
         </div>
 
