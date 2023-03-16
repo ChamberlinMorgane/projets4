@@ -47,7 +47,7 @@
                 <h3 class="font-caveat xl:text-7xl z-10 text-3xl">LE NOM</h3>
 
                 <div class="grid grid-cols-1 xl:grid-cols-2 pt-60 pb-20 space-x-14 ">
-                    <p class="xl:pl-20 font-montserrat xl:text-xl">Le nom E-morphoz
+                    <p class="xl:pl-20 font-montserrat xl:text-xl text-center">Le nom E-morphoz
                         est composé en 2 parties. La
                         première
                         est
@@ -60,7 +60,7 @@
                         d’assembler
                         plusieurs éléments pour créer sa NFT. On retrouve aussi dans la définition de métamorphose l’idée de
                         changement dans un organisme vivant comme un insecte. </p>
-                    <img class="w-48 xl:w-96" src="../assets/logoemorphoz.svg" alt="harmonie coloré">
+                    <img class="w-48 xl:w-96 items-center" src="../assets/logoemorphoz.svg" alt="harmonie coloré">
                 </div>
             </div>
 
