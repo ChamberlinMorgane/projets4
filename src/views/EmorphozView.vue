@@ -60,9 +60,9 @@
                 plusieurs éléments pour créer sa NFT. On retrouve aussi dans la définition de métamorphose l’idée de
                 changement dans un organisme vivant comme un insecte.
             </p>
-            <div class="grid grid-cols-1 xl:flex m-auto justify-center xl:space-x-20 pb-20">
-                <img class="w-48 xl:w-96 items-center" src="../assets/logoemorphoz.svg" alt="harmonie coloré">
-            </div>
+
+            <img class="w-48 xl:w-96 items-center" src="../assets/logoemorphoz.svg" alt="harmonie coloré">
+
         </div>
 
 
