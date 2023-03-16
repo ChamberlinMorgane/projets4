@@ -122,7 +122,7 @@
         <p class="font-montserrat text-center mt-20 mb-20 xl:text-xl">Voici différentes parties de mon animation. </p>
         <div class="xl:grid xl:grid-cols-2 w-screen overflow-hidden">
             <img class="" src="../assets/citadelle.jpg" alt="">
-            <img class="h-full" src="../assets/citadelle-besancon.jpg" alt="">
+            <img class="xl:h-full" src="../assets/citadelle-besancon.jpg" alt="">
         </div>
 
         <router-link class="" to="Mesprojets">
