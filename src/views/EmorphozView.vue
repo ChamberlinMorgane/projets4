@@ -42,7 +42,7 @@
             <div class="flex pt-20 xl:pl-32 pl-14 space-x-10 relative z-10">
                 <h3
                     class="z-10 xl:h-20 xl:w-20 h-14 w-14 bg-transparent border-4 border-solid border-black text-center xl:text-7xl text-4xl rounded-xl hover:bg-black hover:text-white hover:border-white">
-                    3
+                    2
                 </h3>
                 <h3 class="font-caveat xl:text-7xl z-10 text-3xl  ">LE NOM </h3>
             </div>
