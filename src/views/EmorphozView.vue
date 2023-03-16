@@ -47,7 +47,7 @@
                 <h3 class="font-caveat xl:text-7xl z-10 text-3xl">LE NOM</h3>
 
                 <div class="grid grid-cols-1 xl:grid-cols-2 pt-60 pb-20 space-x-14 ">
-                    <p class="pl-20 font-montserrat xl:text-xl">Le nom E-morphoz
+                    <p class="xl:pl-20 font-montserrat xl:text-xl">Le nom E-morphoz
                         est composé en 2 parties. La
                         première
                         est
