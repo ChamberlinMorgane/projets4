@@ -1,5 +1,5 @@
 <template>
-    <footer class="bg-pink-300 bg-opacity-20 grid grid-cols-3 pt-5 ">
+    <footer class="bg-pink-300 bg-opacity-20 grid grid-cols-3 pt-5 mt-10 ">
         <p class="justify-left font-inria">@Toutdroitréservé</p>
         <div class="grid grid-cols-1">
             <p class="m-auto font-inria">PORTFOLIO2023</p>
